@@ -1,0 +1,3 @@
+#site-nav a {
+  @apply hover:text-pink-500;
+}

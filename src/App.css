@@ -1,3 +1,7 @@
 * {
-  cursor: url("./assets/hand.cur"), auto;
+  cursor: url("./hand.cur"), auto;
+}
+
+body {
+  @apply font-serif;
 }
