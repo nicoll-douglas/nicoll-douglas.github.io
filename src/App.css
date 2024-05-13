@@ -14,3 +14,8 @@ a {
 a:hover {
   @apply hover:text-pink-500;
 }
+
+#root {
+  background: url("./bg-clouds.gif");
+  background-size: 270px auto;
+}

@@ -1,18 +1,18 @@
-import Text from "./components/Text";
 import LatestBlogPosts from "./components/LatestBlogPosts";
 import Header from "./components/Header";
 import GifContainer from "./components/GifContainer";
-import VibesButton from "./components/VibesButton";
+import VibesButton from "./components/VibesButton/VibesButton";
 import QuickLinks from "./components/QuickLinks";
+import MainText from "./components/MainText";
 import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center text-lg py-8 h-full justify-center">
-      <div className="flex flex-col items-center p-4 max-w-[1050px]">
+    <div className="flex flex-col items-center text-lg h-full justify-center">
+      <div className="flex flex-col items-center p-4 my-8 max-w-[1050px]">
         <Header />
-        <div className="  w-full max-w-[750px] bg-[url('./sunglasses-emoji.png')] bg-[length:80px] h-[80px] bg-center"></div>
-        <div className="text-center flex gap-4 mb-4">
+        <div className="w-full bg-[url('./sunglasses-emoji.png')] bg-[length:80px] h-[80px] bg-center"></div>
+        <div className="text-center flex gap-4">
           <section
             className="flex flex-col gap-2 lg:hidden"
             aria-label="cool graphics & links"
@@ -25,8 +25,8 @@ export default function Home() {
             <img src="./naruto.gif" alt="naruto gif" />
             <VibesButton />
           </section>
-          <div>
-            <Text />
+          <div className="flex flex-col gap-6">
+            <MainText />
             <GifContainer />
           </div>
           <aside
@@ -35,6 +35,7 @@ export default function Home() {
           >
             <LatestBlogPosts />
             <QuickLinks />
+            <VibesButton />
           </aside>
         </div>
       </div>

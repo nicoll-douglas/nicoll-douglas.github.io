@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="flex items-center justify-center window bg-teal-100 py-4 lg:px-4">
-      <img src="./palm-tree-2.webp" className="title-deco" aria-hidden="true" />
+      <img src="./palm-tree.webp" className="title-deco" aria-hidden="true" />
       <h1 className="flex flex-col items-center text-xl text-center">
         <span className="text-lg text-purple-700">
           Welcome to the website of...
@@ -17,8 +17,7 @@ export default function Header() {
         </span>
         <span className="text-blue-700">Who needs web design anyway? ;-)</span>
       </h1>
-
-      <img src="./palm-tree-2.webp" className="title-deco" aria-hidden="true" />
+      <img src="./palm-tree.webp" className="title-deco" aria-hidden="true" />
     </header>
   );
 }

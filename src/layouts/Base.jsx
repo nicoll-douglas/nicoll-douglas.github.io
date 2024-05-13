@@ -10,12 +10,7 @@ export default function Base() {
       </a>
       <Sidebar />
       <div className="flex flex-col flex-grow relative overflow-y-scoll md:ml-[6px] min-h-dvh">
-        <main
-          className="bg-[url('./bg-clouds.gif')] bg-[length:270px] flex-grow"
-          id="main"
-        >
-          <Outlet />
-        </main>
+        <Outlet />
         <Footer />
       </div>
     </div>

@@ -1,10 +1,13 @@
 export default function GifContainer() {
   return (
-    <div className="flex items-center justify-center gap-6 mt-6">
+    <section
+      className="flex items-center justify-center gap-6"
+      aria-label="cool gifs"
+    >
       <img
         src="./bart-skate.gif"
         className="w-36 sm:hidden"
-        aria-hidden="true"
+        aria-label="bart simpson skating"
       />
       <img
         src="./have-a-great-day.gif"
@@ -13,9 +16,9 @@ export default function GifContainer() {
       />
       <img
         src="./sculpture.webp"
-        aria-hidden="true"
         className="w-36 sm:hidden"
+        aria-label="greek sculpture"
       />
-    </div>
+    </section>
   );
 }
