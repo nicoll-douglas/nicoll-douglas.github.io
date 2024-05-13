@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import SidebarSection from "./SidebarSection";
-import "./Sidebar.css";
 import { useState } from "react";
 
 export default function Sidebar() {

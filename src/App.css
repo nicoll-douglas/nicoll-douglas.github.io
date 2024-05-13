@@ -6,3 +6,11 @@
 a:visited {
   color: purple;
 }
+
+a {
+  @apply underline !important;
+}
+
+a:hover {
+  @apply hover:text-pink-500;
+}
