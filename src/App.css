@@ -1,7 +1,8 @@
 * {
   cursor: url("./hand.cur"), auto;
+  font-family: "Times New Roman", Times, serif;
 }
 
-body {
-  @apply font-serif;
+a:visited {
+  color: purple;
 }
