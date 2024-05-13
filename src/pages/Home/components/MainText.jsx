@@ -1,8 +1,9 @@
-export default function Text() {
+export default function MainText() {
   return (
-    <section
+    <main
       className="max-w-[720px] flex flex-col items-center text-center gap-1"
       aria-label="main text"
+      id="main"
     >
       <p className="text-green-700 text-xl">
         You{"'"}ve successfully made it to my cool and epic website!
@@ -23,10 +24,10 @@ export default function Text() {
       </p>
       <p className="mt-4">
         On this website you can find a showcase of some projects that I have
-        worked on, links and info as well as a blog that i add to monthly where
-        I write about my journey and progress in learning to code! Take a look
-        around :-)
+        worked on, links and info as well as a blog that I plan to add to
+        monthly where I write about my journey and progress in learning to code!
+        Take a look around :-)
       </p>
-    </section>
+    </main>
   );
 }
