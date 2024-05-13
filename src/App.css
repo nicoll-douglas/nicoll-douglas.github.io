@@ -1,5 +1,5 @@
 * {
-  cursor: url("./hand.cur"), auto;
+  cursor: url("./hand.cur"), auto !important;
   font-family: "Times New Roman", Times, serif;
 }
 

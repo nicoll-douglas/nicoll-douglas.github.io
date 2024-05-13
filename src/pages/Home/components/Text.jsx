@@ -5,8 +5,7 @@ export default function Text() {
       aria-label="main text"
     >
       <p className="text-green-700 text-xl">
-        You{"'"}ve successfully made successfully made it to my cool and epic
-        website!
+        You{"'"}ve successfully made it to my cool and epic website!
       </p>
       <p className="text-orange-500">
         I{"'"}m a self-taught programmer currently learning web development. As
@@ -19,7 +18,7 @@ export default function Text() {
         interested to learn about a lot of other things! Those include different
         languages such as Python, Java and low-level stuff like C or entire
         fields such as game development! I{"'"}m passionate about self-learning
-        as it allows me to indulge in my curiosities and my ultimate goal is
+        as it allows me to indulge in my curiosities and my ultimate goal is to
         become good at what I do and never stop progressing!
       </p>
       <p className="mt-4">
