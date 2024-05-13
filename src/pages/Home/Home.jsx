@@ -20,9 +20,9 @@ export default function Home() {
             <img
               src="./anime-girl.gif"
               className="h-72 min-w-32"
-              alt="anime girl gif"
+              alt="anime girl sticker"
             />
-            <img src="./naruto.gif" alt="naruto gif" />
+            <img src="./naruto.gif" alt="naruto sticker" />
             <VibesButton />
           </section>
           <div className="flex flex-col gap-6">

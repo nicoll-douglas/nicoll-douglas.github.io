@@ -7,17 +7,17 @@ export default function GifContainer() {
       <img
         src="./bart-skate.gif"
         className="w-36 sm:hidden"
-        aria-label="bart simpson skating"
+        alt="bart simpson skating"
       />
       <img
         src="./have-a-great-day.gif"
         className="w-36"
-        aria-label="have a great day!"
+        alt="have a great day!"
       />
       <img
         src="./sculpture.webp"
         className="w-36 sm:hidden"
-        aria-label="greek sculpture"
+        alt="greek sculpture"
       />
     </section>
   );
