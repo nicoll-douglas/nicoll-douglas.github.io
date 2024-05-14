@@ -7,6 +7,7 @@ import Contact from "./pages/Contact/Contact";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import PersonalWebsite from "./pages/projects/PersonalWebsite/PersonalWebsite";
 import Studium from "./pages/projects/Studium/Studium";
+import FirstPost from "./pages/blogs/14-05-24-first-post/FirstPost";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/home" element={<Home />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/blog">
-          <Route path="14-05-24-first-post"></Route>
+          <Route path="14-05-24-first-post" element={<FirstPost />}></Route>
         </Route>
         <Route path="/projects">
           <Route path="studium" element={<Studium />}></Route>

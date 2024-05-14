@@ -14,8 +14,9 @@ export default function MainText() {
         less.
       </p>
       <p className="text-blue-700">
-        So far the technologies I{"'"}ve worked with and gotten familiar with
-        include, HTML5, TailwindCSS, Webpack, Git and JavaScript + React. I{"'"}
+        So far some of the many technologies I{"'"}ve worked with and gotten
+        familiar with include, HTML5, TailwindCSS, Webpack, Git and JavaScript +
+        React. I{"'"}
         ve become passionate about self-learning as it allows me to indulge in
         my curiosities and not limit myself like I once was in formal education.
         There are lots more things I have yet to learn such as backend

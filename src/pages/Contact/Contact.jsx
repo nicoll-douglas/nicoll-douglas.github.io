@@ -22,8 +22,8 @@ export default function Contact() {
         />
       </Header>
       <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-1">
-        <section className="flex flex-col gap-2">
-          <p className="text-blue-700">Thanks for wanting to talk!</p>
+        <main className="flex flex-col gap-2" id="main">
+          <p className="text-blue-700">Thanks for wanting to talk :-)</p>
           <label htmlFor="username-textarea" className="text-lg">
             Message me on discord:
           </label>
@@ -46,9 +46,9 @@ export default function Contact() {
           <img
             src="/animated/dog.gif"
             className="w-64 mt-auto mx-auto"
-            alt="dog-gif"
+            aria-hidden="true"
           />
-        </section>
+        </main>
         <img
           src="/images/personal-photo.jpg"
           className="w-80 window sm:hidden"

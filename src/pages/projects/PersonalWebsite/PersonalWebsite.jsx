@@ -1,8 +1,10 @@
 import Header from "../../../components/Header";
+import Article from "../../../components/Article";
+import ArticleText from "../../../components/ArticleText";
 
 export default function PersonalWebsite() {
   return (
-    <article className="max-w-[800px]">
+    <Article>
       <Header background="bg-yellow-100">
         <img
           src="/animated/star.gif"
@@ -19,8 +21,8 @@ export default function PersonalWebsite() {
           className="w-24 sm:hidden"
         />
       </Header>
-      <div className="flex flex-col gap-4 items-center text-center">
-        <p className="mt-4">
+      <ArticleText>
+        <p>
           The website that you are on is what I now consider my personal
           website. It is something I put together in three days or so and is
           just an informal thing I did for fun. A place to display and aggregate
@@ -65,7 +67,7 @@ export default function PersonalWebsite() {
           websites worked haha. I have definitely grown a lot since those days
           and this project is a part of that.
         </p>
-      </div>
-    </article>
+      </ArticleText>
+    </Article>
   );
 }
