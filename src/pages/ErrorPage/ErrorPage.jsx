@@ -14,13 +14,9 @@ export default function ErrorPage() {
         Back to home page
       </Link>
       <div className="flex flex-wrap">
-        <img src="./animated/error-1.gif" aria-hidden="true" className="w-64" />
-        <img
-          src="./animated/skeleton.gif"
-          aria-hidden="true"
-          className="w-64"
-        />
-        <img src="./animated/error-2.gif" aria-hidden="true" className="h-24" />
+        <img src="/animated/error-1.gif" aria-hidden="true" className="w-64" />
+        <img src="/animated/skeleton.gif" aria-hidden="true" className="w-64" />
+        <img src="/animated/error-2.gif" aria-hidden="true" className="h-24" />
       </div>
     </section>
   );

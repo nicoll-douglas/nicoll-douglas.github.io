@@ -5,6 +5,8 @@ import Base from "./layouts/Base";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
+import PersonalWebsite from "./pages/projects/PersonalWebsite/PersonalWebsite";
+import Studium from "./pages/projects/Studium/Studium";
 
 function App() {
   return (
@@ -17,8 +19,8 @@ function App() {
           <Route path="14-05-24-first-post"></Route>
         </Route>
         <Route path="/projects">
-          <Route path="studium"></Route>
-          <Route path="personal-website"></Route>
+          <Route path="studium" element={<Studium />}></Route>
+          <Route path="personal-website" element={<PersonalWebsite />}></Route>
         </Route>
         <Route path="*" element={<ErrorPage />}></Route>
       </Route>

@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Header background="bg-teal-100">
         <img
-          src="./animated/palm-tree.webp"
+          src="/animated/palm-tree.webp"
           className="w-44 lg:hidden"
           aria-hidden="true"
         />
@@ -19,7 +19,7 @@ export default function Home() {
             Welcome to the website of...
           </span>
           <img
-            src="./word-art/word-art-molten.gif"
+            src="/word-art/word-art-molten.gif"
             className="h-16 xs:h-10"
             alt="Nicoll Douglas"
           />
@@ -32,24 +32,24 @@ export default function Home() {
           </span>
         </h1>
         <img
-          src="./animated/palm-tree.webp"
+          src="/animated/palm-tree.webp"
           className="w-44 lg:hidden"
           aria-hidden="true"
         />
       </Header>
-      <div className="w-full bg-[url('./images/sunglasses-emoji.png')] bg-[length:80px] h-[80px] bg-center"></div>
+      <div className="w-full bg-[url('/images/sunglasses-emoji.png')] bg-[length:80px] h-[80px] bg-center"></div>
       <div className="text-center flex gap-4">
         <section
           className="flex flex-col gap-2 lg:hidden items-center"
           aria-label="cool graphics & links"
         >
           <img
-            src="./animated/anime-girl.gif"
+            src="/animated/anime-girl.gif"
             className="h-72 min-w-32"
             alt="anime girl sticker"
           />
           <img
-            src="./animated/naruto.gif"
+            src="/animated/naruto.gif"
             alt="naruto sticker"
             className="min-w-32"
           />

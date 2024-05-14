@@ -1,5 +1,5 @@
 * {
-  cursor: url("./hand.cur"), auto !important;
+  cursor: url("/hand.cur"), auto !important;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -16,7 +16,7 @@ a:hover {
 }
 
 #root {
-  background: url("./backgrounds/bg-clouds.gif");
+  background: url("/backgrounds/bg-clouds.gif");
   background-size: 270px auto;
 }
 

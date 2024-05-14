@@ -8,7 +8,7 @@ export default function Sidebar() {
 
   return (
     <div className="top-0 left-0 flex z-50 items-start h-dvh sticky md:fixed">
-      <div className="w-[6px] h-dvh bg-[url('./vertical-divider.gif')] min-w-[6px] order-2">
+      <div className="w-[6px] h-dvh bg-[url('/vertical-divider.gif')] min-w-[6px] order-2">
         <button
           className="bg-gray-300 fixed ml-[6px] hidden md:block"
           aria-haspopup="menu"
@@ -38,9 +38,9 @@ export default function Sidebar() {
             }}
           >
             <audio className="sr-only" aria-hidden="true" ref={audioRef}>
-              <source src="./home-navigation.wav" type="audio/wav" />
+              <source src="/home-navigation.wav" type="audio/wav" />
             </audio>
-            <img src="./images/home-icon.png" aria-hidden="true" />
+            <img src="/images/home-icon.png" aria-hidden="true" />
           </Link>
           <button
             aria-label="Close"

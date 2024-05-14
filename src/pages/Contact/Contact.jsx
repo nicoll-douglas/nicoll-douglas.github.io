@@ -7,16 +7,16 @@ export default function Contact() {
     <>
       <Header background="bg-red-100">
         <img
-          src="./animated/pot-plant.gif"
+          src="/animated/pot-plant.gif"
           className="w-24 sm:hidden"
           aria-hidden="true"
         />
         <div className="flex flex-col items-center text-center">
           <p className="text-2xl text-green-700">How to reach...</p>
-          <img src="./word-art/word-art-metallic.png" alt="Nicoll Douglas" />
+          <img src="/word-art/word-art-metallic.png" alt="Nicoll Douglas" />
         </div>
         <img
-          src="./animated/pot-plant.gif"
+          src="/animated/pot-plant.gif"
           className="w-24 sm:hidden"
           aria-hidden="true"
         />
@@ -44,13 +44,13 @@ export default function Contact() {
             Click to copy
           </button>
           <img
-            src="./animated/dog.gif"
+            src="/animated/dog.gif"
             className="w-64 mt-auto mx-auto"
             alt="dog-gif"
           />
         </section>
         <img
-          src="./images/personal-photo.jpg"
+          src="/images/personal-photo.jpg"
           className="w-80 window sm:hidden"
           alt="photo of author"
         />
