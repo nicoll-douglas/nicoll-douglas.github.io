@@ -1,6 +1,5 @@
 :root {
   --text-color: #222222;
-  --surface: #c0c0c0;
   --button-highlight: #ffffff;
   --button-face: #dfdfdf;
   --button-shadow: #808080;
@@ -21,7 +20,7 @@
   border: none;
   color: transparent;
   text-shadow: 0 0 var(--text-color);
-  background: var(--surface);
+  background: linear-gradient(to left, #84fffa, #ff84fc);
   box-shadow: var(--border-raised-outer), var(--border-raised-inner);
   border-radius: 0;
 

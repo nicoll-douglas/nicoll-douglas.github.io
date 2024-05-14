@@ -16,6 +16,6 @@ a:hover {
 }
 
 #root {
-  background: url("./bg-clouds.gif");
+  background: url("./backgrounds/bg-clouds.gif");
   background-size: 270px auto;
 }

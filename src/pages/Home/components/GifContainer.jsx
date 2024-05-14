@@ -5,17 +5,17 @@ export default function GifContainer() {
       aria-label="cool gifs"
     >
       <img
-        src="./bart-skate.gif"
+        src="./animated/bart-skate.gif"
         className="w-36 sm:hidden"
         alt="bart simpson skating"
       />
       <img
-        src="./have-a-great-day.gif"
+        src="./animated/have-a-great-day.gif"
         className="w-36"
         alt="have a great day!"
       />
       <img
-        src="./sculpture.webp"
+        src="./animated/sculpture.webp"
         className="w-36 sm:hidden"
         alt="greek sculpture"
       />

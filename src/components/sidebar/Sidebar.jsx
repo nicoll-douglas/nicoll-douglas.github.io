@@ -28,7 +28,7 @@ export default function Sidebar() {
       >
         <div className="flex justify-between mb-6 title-bar-controls items-start">
           <NavLink className="inline-block" aria-label="go to home page" to="/">
-            <img src="./home-icon.png" aria-hidden="true" />
+            <img src="./images/home-icon.png" aria-hidden="true" />
           </NavLink>
           <button
             aria-label="Close"
@@ -81,18 +81,7 @@ export default function Sidebar() {
               </a>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/in/nicoll-douglas-135624291/"
-                target="_blank"
-              >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <NavLink>Contact</NavLink>
-            </li>
-            <li>
-              <NavLink>Info</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </SidebarSection>

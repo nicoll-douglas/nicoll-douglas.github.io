@@ -8,19 +8,6 @@ export default function QuickLinks() {
             GitHub
           </a>
         </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/nicoll-douglas-135624291/"
-            target="_blank"
-          >
-            LinkedIn
-          </a>
-        </li>
-        <li>
-          <a href="mailto:nicoll.leo.douglas@gmail.com" target="_blank">
-            Email
-          </a>
-        </li>
       </ul>
     </nav>
   );
