@@ -1,9 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SidebarSection from "./SidebarSection";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 export default function Sidebar() {
   const [sidebarHidden, setSidebarHidden] = useState(false);
+  const audioRef = useRef(null);
 
   return (
     <div className="top-0 left-0 flex z-50 items-start h-dvh sticky md:fixed">
@@ -27,9 +28,20 @@ export default function Sidebar() {
         id="site-nav"
       >
         <div className="flex justify-between mb-6 title-bar-controls items-start">
-          <NavLink className="inline-block" aria-label="go to home page" to="/">
+          <Link
+            className="inline-block"
+            aria-label="go to home page"
+            to="/"
+            onClick={() => {
+              audioRef.current.volume = 0.1;
+              audioRef.current.play();
+            }}
+          >
+            <audio className="sr-only" aria-hidden="true" ref={audioRef}>
+              <source src="./home-navigation.wav" type="audio/wav" />
+            </audio>
             <img src="./images/home-icon.png" aria-hidden="true" />
-          </NavLink>
+          </Link>
           <button
             aria-label="Close"
             className="w-5 h-5 bg-gray-300 bg-center hidden md:block"
@@ -41,35 +53,17 @@ export default function Sidebar() {
         <SidebarSection heading="My Projects">
           <ul>
             <li>
-              <NavLink>Lorem Ipsum</NavLink>
+              <Link to="/projects/personal-website">Personal Website</Link>
             </li>
             <li>
-              <NavLink>Dolor sit amet</NavLink>
-            </li>
-            <li>
-              <NavLink>Consectetur adipisci</NavLink>
-            </li>
-            <li>
-              <NavLink>Eiusmod</NavLink>
+              <Link to="/projects/studium">Studium</Link>
             </li>
           </ul>
         </SidebarSection>
         <SidebarSection heading="My Blog">
           <ul>
             <li>
-              <NavLink>01/24 - Voluptate Velit</NavLink>
-            </li>
-            <li>
-              <NavLink>02/24 - Cillum Dolore</NavLink>
-            </li>
-            <li>
-              <NavLink>03/24 - Anim id Est</NavLink>
-            </li>
-            <li>
-              <NavLink>04/24 - Excepteur Sint</NavLink>
-            </li>
-            <li>
-              <NavLink>05/24 - Aute Iure</NavLink>
+              <Link to="/blog/14-05-24-first-post">14/05/24 - First Post</Link>
             </li>
           </ul>
         </SidebarSection>
@@ -81,7 +75,7 @@ export default function Sidebar() {
               </a>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </SidebarSection>

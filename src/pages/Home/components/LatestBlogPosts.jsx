@@ -12,17 +12,7 @@ export default function LatestBlogPosts() {
         <tbody className="text-lg">
           <tr>
             <td>
-              <Link>05/24 - Aute Iure</Link>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link>04/24 - Excepteur Sint</Link>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link>03/24 - Anim id Est</Link>
+              <Link to="/blog/14-05-24-first-post">14/05/24 - First Post</Link>
             </td>
           </tr>
         </tbody>

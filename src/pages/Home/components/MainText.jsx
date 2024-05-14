@@ -9,7 +9,7 @@ export default function MainText() {
         You{"'"}ve successfully made it to my cool and epic website!
       </p>
       <p className="text-orange-500">
-        I{"'"}m a self-taught programmer! Currently learning web development and
+        I{"'"}m a self-taught programmer currently learning web development and
         my goal is to hopefully land a job in the industry within 1-2 years or
         less.
       </p>
