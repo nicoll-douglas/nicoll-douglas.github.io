@@ -14,23 +14,21 @@ export default function Home() {
           className="w-44 lg:hidden"
           aria-hidden="true"
         />
-        <h1 className="flex flex-col items-center text-xl text-center">
-          <span className="text-lg text-purple-700">
+        <div className="flex flex-col items-center text-xl text-center">
+          <p className="text-lg text-purple-700">
             Welcome to the website of...
-          </span>
+          </p>
           <img
             src="/word-art/word-art-molten.gif"
             className="h-16 xs:h-10"
             alt="Nicoll Douglas"
           />
-          <span>
+          <p>
             <span className="text-3xl text-red-500">Programmer</span> &{" "}
             <span className="text-2xl text-pink-500">Web Developer</span>
-          </span>
-          <span className="text-blue-700">
-            Who needs web design anyway? ;-)
-          </span>
-        </h1>
+          </p>
+          <p className="text-blue-700">Who needs web design anyway? ;-)</p>
+        </div>
         <img
           src="/animated/palm-tree.webp"
           className="w-44 lg:hidden"
