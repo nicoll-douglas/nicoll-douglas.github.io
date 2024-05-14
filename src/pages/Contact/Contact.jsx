@@ -23,7 +23,7 @@ export default function Contact() {
       </Header>
       <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-1">
         <main className="flex flex-col gap-2" id="main">
-          <p className="text-blue-700">Thanks for wanting to talk :-)</p>
+          <p className="text-blue-700">Feel free to hmu :-)</p>
           <label htmlFor="username-textarea" className="text-lg">
             Message me on discord:
           </label>

@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import SidebarSection from "./SidebarSection";
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 export default function Sidebar() {
   const [sidebarHidden, setSidebarHidden] = useState(false);
-  const audioRef = useRef(null);
 
   return (
     <div className="top-0 left-0 flex z-50 items-start h-dvh sticky md:fixed">
@@ -28,18 +27,7 @@ export default function Sidebar() {
         id="site-nav"
       >
         <div className="flex justify-between mb-6 title-bar-controls items-start">
-          <Link
-            className="inline-block"
-            aria-label="go to home page"
-            to="/"
-            onClick={() => {
-              audioRef.current.volume = 0.1;
-              audioRef.current.play();
-            }}
-          >
-            <audio className="sr-only" aria-hidden="true" ref={audioRef}>
-              <source src="/home-navigation.wav" type="audio/wav" />
-            </audio>
+          <Link className="inline-block" aria-label="go to home page" to="/">
             <img src="/images/home-icon.png" aria-hidden="true" />
           </Link>
           <button

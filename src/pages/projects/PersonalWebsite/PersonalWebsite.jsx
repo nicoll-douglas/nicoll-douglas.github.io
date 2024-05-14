@@ -1,6 +1,6 @@
 import Header from "../../../components/Header";
 import Article from "../../../components/Article";
-import ArticleText from "../../../components/ArticleText";
+import ArticleBody from "../../../components/ArticleBody";
 
 export default function PersonalWebsite() {
   return (
@@ -21,7 +21,7 @@ export default function PersonalWebsite() {
           className="w-24 sm:hidden"
         />
       </Header>
-      <ArticleText>
+      <ArticleBody>
         <p>
           The website that you are on is what I now consider my personal
           website. It is something I put together in three days or so and is
@@ -67,7 +67,7 @@ export default function PersonalWebsite() {
           websites worked haha. I have definitely grown a lot since those days
           and this project is a part of that.
         </p>
-      </ArticleText>
+      </ArticleBody>
     </Article>
   );
 }

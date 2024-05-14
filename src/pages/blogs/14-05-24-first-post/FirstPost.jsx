@@ -1,6 +1,6 @@
 import Header from "../../../components/Header";
 import Article from "../../../components/Article";
-import ArticleText from "../../../components/ArticleText";
+import ArticleBody from "../../../components/ArticleBody";
 
 export default function FirstPost() {
   return (
@@ -11,7 +11,7 @@ export default function FirstPost() {
           <p>14/05/24</p>
         </div>
       </Header>
-      <ArticleText>
+      <ArticleBody>
         <section className="flex flex-col gap-4 mb-6">
           <h2 className="text-2xl text-red-600">Welcome to the blog :-)</h2>
           <p>
@@ -29,19 +29,20 @@ export default function FirstPost() {
             So as for what I{"'"}ve been doing recently, I{"'"}ve been working
             on a project called Studium. This is a relatively large frontend web
             application suite with several different features and it
-            {"'"}s serving as my method for getting to grips with the React
-            framework and its paradigm. This includes hooks, state, routing and
-            the concept of rendering amongst many more.
+            {"'"}s serving as my initial medium for getting to grips with the
+            React framework and its paradigm. This includes hooks, state,
+            working with components, routing, and the concept of rendering
+            amongst many more.
           </p>
           <p>
             I was initially building this project with no framework and just
             vanilla Javascript as a sort of rite of passage before moving onto a
             frontend framework. And surprisingly I made it quite far however
             after 2-3 weeks of work, a humongous, out of control spaghetti
-            codebase and lack of enjoyment for the project, I hit a point of
-            diminishing returns and decided my time would be better spent
-            learning React. Thus leaving me to build the project at a later
-            date.
+            codebase and, lack of enjoyment for the project, I hit a point of
+            diminishing returns. Consequently, I decided my time would be better
+            spent moving on to learning React. Thus leaving me to build the
+            project at a later date.
           </p>
           <p>
             To be honest, I don{"'"}t regret my initial effort on the project. I
@@ -59,18 +60,18 @@ export default function FirstPost() {
             decided to jump into a framework sooner.
           </p>
           <p>
-            Either way, for now I{"'"}ll keep working on the project, getting to
-            grips with React along the way and continually progressing. The
-            completion of this initial post marks the official completion of
-            this website. More updates to come :-)
+            Either way, now that this website is complete and this post comes to
+            a close, I{"'"}ll continue working on Studium, getting to grips with
+            React along the way and continually progressing.
           </p>
+          <p>More updates to come :-)</p>
         </section>
         <img
           src="/animated/wizard-typing.gif"
           className="w-64"
           alt="gif of typing wizard"
         />
-      </ArticleText>
+      </ArticleBody>
     </Article>
   );
 }
