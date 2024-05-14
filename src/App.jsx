@@ -1,9 +1,10 @@
 import "./App.css";
+import "98.css";
 import { Route, Routes } from "react-router-dom";
 import Base from "./layouts/Base";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
-import "98.css";
+import ErrorPage from "./pages/ErrorPage/ErrorPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="studium"></Route>
           <Route path="personal-website"></Route>
         </Route>
+        <Route path="*" element={<ErrorPage />}></Route>
       </Route>
     </Routes>
   );

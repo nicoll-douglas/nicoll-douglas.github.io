@@ -1,10 +1,9 @@
 import LatestBlogPosts from "./components/LatestBlogPosts";
 import Header from "../../components/Header";
 import GifContainer from "./components/GifContainer";
-import VibesButton from "./components/VibesButton/VibesButton";
+import VibesButton from "./components/VibesButton";
 import QuickLinks from "./components/QuickLinks";
 import MainText from "./components/MainText";
-import { useEffect, useRef } from "react";
 
 export default function Home() {
   return (
