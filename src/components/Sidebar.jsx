@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import SidebarSection from "./SidebarSection";
 import { useState } from "react";
+import homeIconUrl from "../assets/images/home-icon.png";
 
 export default function Sidebar() {
   const [sidebarHidden, setSidebarHidden] = useState(false);
 
   return (
     <div className="top-0 left-0 flex z-50 items-start h-dvh sticky md:fixed">
-      <div className="w-[6px] h-dvh bg-[url('/vertical-divider.gif')] min-w-[6px] order-2">
+      <div className="w-[6px] h-dvh bg-[url('./assets/images/vertical-divider.gif')] min-w-[6px] order-2">
         <button
           className="bg-gray-300 fixed ml-[6px] hidden md:block"
           aria-haspopup="menu"
@@ -28,7 +29,7 @@ export default function Sidebar() {
       >
         <div className="flex justify-between mb-6 title-bar-controls items-start">
           <Link className="inline-block" aria-label="go to home page" to="/">
-            <img src="/images/home-icon.png" aria-hidden="true" />
+            <img src={homeIconUrl} aria-hidden="true" />
           </Link>
           <button
             aria-label="Close"

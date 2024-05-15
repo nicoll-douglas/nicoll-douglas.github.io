@@ -1,13 +1,13 @@
+import DJScrewGraphicUrl from "../assets/images/dj-screw-graphic.jpg";
+import friendsUrl from "../assets/images/friends.gif";
+import heartUrl from "../assets/images/heart.gif";
+
 export default function Footer() {
   return (
-    <footer className="bg-[url('/backgrounds/bg-marble.png')] relative grid grid-cols-4 gap-6 pt-[30px] px-6 pb-6">
-      <div className="h-[6px] min-h-[6px] bg-[url('/horizontal-divider.gif')] absolute top-0 w-full"></div>
+    <footer className="bg-[url('./assets/images/bg-marble.png')] relative grid grid-cols-4 gap-6 pt-[30px] px-6 pb-6">
+      <div className="h-[6px] min-h-[6px] bg-[url('./assets/images/horizontal-divider.gif')] absolute top-0 w-full"></div>
       <figure className="flex gap-2 xl:hidden" aria-label="tribute">
-        <img
-          src="/images/dj-screw.jpg"
-          className="h-40 window"
-          alt="dj screw"
-        />
+        <img src={DJScrewGraphicUrl} className="h-40 window" alt="dj screw" />
         <figcaption className="text-lg text-purple-600">
           R.I.P DJ SCREW
         </figcaption>
@@ -21,15 +21,11 @@ export default function Footer() {
         </p>
         <div className="flex items-center">
           <img
-            src="/animated/friends.gif"
+            src={friendsUrl}
             className="sm:h-20 xs:h-12"
             aria-hidden="true"
           />
-          <img
-            src="/animated/heart.gif"
-            className="h-16 xs:h-12"
-            aria-hidden="true"
-          />
+          <img src={heartUrl} className="h-16 xs:h-12" aria-hidden="true" />
         </div>
       </div>
     </footer>

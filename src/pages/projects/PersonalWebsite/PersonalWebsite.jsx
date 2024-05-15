@@ -2,24 +2,18 @@ import Header from "../../../components/Header";
 import Article from "../../../components/Article";
 import ArticleBody from "../../../components/ArticleBody";
 
+import starUrl from "../../../assets/images/star.gif";
+
 export default function PersonalWebsite() {
   return (
     <Article>
       <Header background="bg-yellow-100">
-        <img
-          src="/animated/star.gif"
-          aria-hidden="true"
-          className="w-24 sm:hidden"
-        />
+        <img src={starUrl} aria-hidden="true" className="w-24 sm:hidden" />
         <div className="flex flex-col items-center justify-center mx-6 md:mx-0">
           <p className="text-xl text-purple-700 ">Project:</p>
           <h1 className="text-5xl sm:text-3xl">My Personal Website</h1>
         </div>
-        <img
-          src="/animated/star.gif"
-          aria-hidden="true"
-          className="w-24 sm:hidden"
-        />
+        <img src={starUrl} aria-hidden="true" className="w-24 sm:hidden" />
       </Header>
       <ArticleBody>
         <p>
