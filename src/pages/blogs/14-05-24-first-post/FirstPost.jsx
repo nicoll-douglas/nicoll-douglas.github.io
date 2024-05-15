@@ -1,6 +1,7 @@
 import Header from "../../../components/Header";
 import Article from "../../../components/Article";
 import ArticleBody from "../../../components/ArticleBody";
+import wizardTypingUrl from "../../../assets/images/wizard-typing.gif";
 
 export default function FirstPost() {
   return (
@@ -67,7 +68,7 @@ export default function FirstPost() {
           <p>More updates to come :-)</p>
         </section>
         <img
-          src="/animated/wizard-typing.gif"
+          src={wizardTypingUrl}
           className="w-64"
           alt="gif of typing wizard"
         />

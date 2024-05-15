@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 
+import error1Url from "../../assets/images/error-1.gif";
+import error2Url from "../../assets/images/error-2.gif";
+import skeletonUrl from "../../assets/images/skeleton.gif";
+
 export default function ErrorPage() {
   return (
     <section className="flex flex-col">
@@ -14,9 +18,9 @@ export default function ErrorPage() {
         Back to home page
       </Link>
       <div className="flex flex-wrap">
-        <img src="/animated/error-1.gif" aria-hidden="true" className="w-64" />
-        <img src="/animated/skeleton.gif" aria-hidden="true" className="w-64" />
-        <img src="/animated/error-2.gif" aria-hidden="true" className="h-24" />
+        <img src={error1Url} aria-hidden="true" className="w-64" />
+        <img src={skeletonUrl} aria-hidden="true" className="w-64" />
+        <img src={error2Url} aria-hidden="true" className="h-24" />
       </div>
     </section>
   );
