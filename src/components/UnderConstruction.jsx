@@ -11,15 +11,15 @@ import underConstruction9Url from "../assets/images/under-construction-9.gif";
 export default function UnderConstruction() {
   return (
     <div className="flex flex-wrap gap-2 items-center">
-      <img src={underConstruction1Url} aria-hidden="true" />
-      <img src={underConstruction2Url} aria-hidden="true" />
-      <img src={underConstruction3Url} aria-hidden="true" />
-      <img src={underConstruction4Url} aria-hidden="true" />
-      <img src={underConstruction5Url} aria-hidden="true" />
-      <img src={underConstruction6Url} aria-hidden="true" />
-      <img src={underConstruction7Url} aria-hidden="true" />
-      <img src={underConstruction8Url} aria-hidden="true" />
-      <img src={underConstruction9Url} aria-hidden="true" />
+      <img src={underConstruction1Url} aria-hidden="true" className="h-8" />
+      <img src={underConstruction2Url} aria-hidden="true" className="h-9" />
+      <img src={underConstruction3Url} aria-hidden="true" className="w-20" />
+      <img src={underConstruction4Url} aria-hidden="true" className="h-5" />
+      <img src={underConstruction5Url} aria-hidden="true" className="h-56" />
+      <img src={underConstruction6Url} aria-hidden="true" className="h-60" />
+      <img src={underConstruction7Url} aria-hidden="true" className="h-10" />
+      <img src={underConstruction8Url} aria-hidden="true" className="h-16" />
+      <img src={underConstruction9Url} aria-hidden="true" className="h-24" />
     </div>
   );
 }

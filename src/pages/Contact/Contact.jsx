@@ -47,7 +47,8 @@ export default function Contact() {
         </main>
         <img
           src={personalPhotoUrl}
-          className="w-80 window sm:hidden"
+          className="w-80 window sm:hidden h-full"
+          loading="lazy"
           alt="photo of author"
         />
       </div>
