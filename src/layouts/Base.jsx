@@ -8,7 +8,7 @@ export default function Base() {
       <Sidebar />
       <div className="flex flex-col flex-grow relative overflow-y-scoll md:ml-[6px] min-h-dvh justify-end text-lg">
         <div className="flex flex-col items-center h-full justify-start flex-grow">
-          <div className="flex flex-col items-center justify-start p-4 my-8 max-w-[1050px]">
+          <div className="flex flex-col items-start justify-start p-4 my-8 max-w-[1050px]">
             <Outlet />
           </div>
         </div>
