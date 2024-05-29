@@ -1,7 +1,7 @@
-import Header from "../../../components/Header";
-import Article from "../../../components/Article";
-import ArticleBody from "../../../components/ArticleBody";
-import wizardTypingUrl from "../../../assets/images/wizard-typing.gif";
+import Header from "../../components/Header";
+import Article from "../../components/Article";
+import ArticleBody from "../../components/ArticleBody";
+import wizardTypingUrl from "../../assets/images/wizard-typing.gif";
 
 export default function FirstPost() {
   return (

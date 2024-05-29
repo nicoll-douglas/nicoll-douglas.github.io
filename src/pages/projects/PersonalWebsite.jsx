@@ -1,9 +1,8 @@
-import Article from "../../../components/Article";
-import ArticleBody from "../../../components/ArticleBody";
-import ArticleHeader from "../../../components/ArticleHeader";
-import ArticleSection from "../../../components/ArticleSection";
-
-import starUrl from "../../../assets/images/star.gif";
+import Article from "../../components/Article";
+import ArticleBody from "../../components/ArticleBody";
+import ArticleHeader from "../../components/ArticleHeader";
+import ArticleSection from "../../components/ArticleSection";
+import starUrl from "../../assets/images/star.gif";
 
 export default function PersonalWebsite() {
   return (

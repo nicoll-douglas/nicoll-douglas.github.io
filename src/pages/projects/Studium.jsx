@@ -1,9 +1,9 @@
-import rubiksCubeUrl from "../../../assets/images/rubiks-cube.webp";
-import reactExectuionFlowUrl from "../../../assets/images/react-execution-flow.png";
-import Article from "../../../components/Article";
-import ArticleHeader from "../../../components/ArticleHeader";
-import ArticleBody from "../../../components/ArticleBody";
-import ArticleSection from "../../../components/ArticleSection";
+import rubiksCubeUrl from "../../assets/images/rubiks-cube.webp";
+import reactExectuionFlowUrl from "../../assets/images/react-execution-flow.png";
+import Article from "../../components/Article";
+import ArticleHeader from "../../components/ArticleHeader";
+import ArticleBody from "../../components/ArticleBody";
+import ArticleSection from "../../components/ArticleSection";
 
 export default function Studium() {
   return (

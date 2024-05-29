@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-import error1Url from "../../assets/images/error-1.gif";
-import error2Url from "../../assets/images/error-2.gif";
-import skeletonUrl from "../../assets/images/skeleton.gif";
+import error1Url from "../assets/images/error-1.gif";
+import error2Url from "../assets/images/error-2.gif";
+import skeletonUrl from "../assets/images/skeleton.gif";
 
 export default function ErrorPage() {
   return (

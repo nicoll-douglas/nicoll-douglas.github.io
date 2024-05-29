@@ -5,9 +5,9 @@ import Base from "./layouts/Base";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
-import PersonalWebsite from "./pages/projects/PersonalWebsite/PersonalWebsite";
-import Studium from "./pages/projects/Studium/Studium";
-import FirstPost from "./pages/blogs/14-05-24-first-post/FirstPost";
+import PersonalWebsite from "./pages/projects/PersonalWebsite";
+import Studium from "./pages/projects/Studium";
+import FirstPost from "./pages/blogs/14-05-25FirstPost";
 
 function App() {
   return (

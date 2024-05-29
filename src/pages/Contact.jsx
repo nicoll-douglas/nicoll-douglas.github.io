@@ -1,9 +1,10 @@
 import { useRef } from "react";
-import Header from "../../components/Header";
-import wordArtUrl from "../../assets/images/word-art-metallic.png";
-import personalPhotoUrl from "../../assets/images/personal-photo.jpg";
-import dogUrl from "../../assets/images/dog.gif";
-import potPlantUrl from "../../assets/images/pot-plant.gif";
+
+import Header from "../components/Header";
+import wordArtUrl from "../assets/images/word-art-metallic.png";
+import personalPhotoUrl from "../assets/images/personal-photo.jpg";
+import dogUrl from "../assets/images/dog.gif";
+import potPlantUrl from "../assets/images/pot-plant.gif";
 
 export default function Contact() {
   const textareaRef = useRef(null);
