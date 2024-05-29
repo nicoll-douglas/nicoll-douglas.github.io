@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 Header.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.node,
   background: PropTypes.string,
 };
 

@@ -7,7 +7,7 @@ import blogPostData from "../utils/blogPostData";
 import projectData from "../utils/projectData";
 
 export default function Sidebar() {
-  const [sidebarHidden, setSidebarHidden] = useState(false);
+  const [sidebarHidden, setSidebarHidden] = useState(true);
 
   return (
     <div className="top-0 left-0 flex z-50 items-start h-dvh sticky md:fixed">

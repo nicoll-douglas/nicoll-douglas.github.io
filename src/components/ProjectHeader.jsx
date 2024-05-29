@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 ProjectHeader.propTypes = {
   title: PropTypes.string.isRequired,
-  projectLink: PropTypes.string.isRequired,
+  projectLink: PropTypes.string,
   repoLink: PropTypes.string.isRequired,
   imageUrl: PropTypes.string.isRequired,
   background: PropTypes.string.isRequired,

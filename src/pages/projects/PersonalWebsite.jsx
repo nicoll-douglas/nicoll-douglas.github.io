@@ -31,7 +31,7 @@ export default function PersonalWebsite() {
             style. The idea allowed me to work on a project I would enjoy as
             well as allow me to practice structuring and styling a simple,
             static webpage composed of HTML and CSS (which is really all 90s
-            websites are and were). A good initial project.
+            websites are and were)—a good initial project.
           </p>
           <p>
             Much further along in my coding journey when I made this project, I

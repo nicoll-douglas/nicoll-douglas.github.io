@@ -47,12 +47,12 @@ export default function Studium() {
               Designspiration
             </a>{" "}
             to get some inspiration. Overall, I think as a programmer and not a
-            product designer or marketing expert, I{"'"}ve managed to create a
-            simple but effective design with a hero section as the center piece
-            for the home page. The home page is also fuly responsive and
-            accessible with structured flow, landmarks, a navbar and mobile
-            dropdown menu. The latter of which being very simple to code in
-            React using a simple boolean state for whether it is toggled or not.
+            designer or marketing expert, I{"'"}ve managed to create a simple
+            but effective design with a hero section as the center piece for the
+            home page. The home page is also fuly responsive and accessible with
+            structured flow, landmarks, a navbar and mobile dropdown menu. The
+            latter of which being very simple to code in React using a simple
+            boolean state for whether it is toggled or not.
           </p>
         </ArticleSection>
         <ArticleSection
@@ -64,7 +64,7 @@ export default function Studium() {
             they are all fairly similar feature-wise and thus code-wise. The
             main logic behind them naturally being simple{" "}
             <abbr title="Create, Read, Update, Delete">CRUD</abbr> operations
-            and displaying them upon creation, giving various options to the
+            and displaying items upon creation, giving various options to the
             user to edit and manipulate them. It stores the data of each
             note/bookmark/list-item in a stateful array and updates it
             appropriately with a dispatch function called by some event handler,
@@ -110,18 +110,18 @@ export default function Studium() {
         <ArticleSection heading="Summary" headingColor="text-purple-900">
           <p>
             {
-              "As mentioned before, this project was an incredibly good learning experience and is probably my best project to date. However, this application could most definitely be improved upon. For one, the code is not formally tested but works to the best of my knowledge. When it comes to my learning, testing is one of the next things I plan to learn and so testing this application will definitely be a good exercise to come back to once I do that. Secondly you could also argue that if I wanted to make this into a genuine product for real users, more study tools, features and UX improvements could be concentrated into the application in order to provide a better product as well as user aunthentication and a proper database. I think this room for improvement though is one of the things that excites me to keep learning and will definitely make me come back to this project as well as creating bigger and better ones."
+              "As mentioned before, this project was an incredibly good learning experience and is probably my best project to date as well as being fully responsive and accessible. However, this application could most definitely be improved upon. For one, the code is not formally tested but works to the best of my knowledge. When it comes to my learning, testing is one of the next things I plan to learn and so testing this application will definitely be a good exercise to come back to once I do that. You could also argue that if I wanted to make this into a genuine product for real users, more study tools, features and UX improvements could be concentrated into the application in order to provide a better product as well as user aunthentication and a proper database. I think this room for improvement though is one of the things that excites me to keep learning and will definitely make me come back to this project as well as create bigger and better ones."
             }
           </p>
-          <figure className="window max-w-full md:hidden">
-            <img src={reactExectuionFlowUrl} alt="Screenshot of txt file" />
-            <figcaption className="text-base px-6 py-2">
-              Figure 1 - Some notes I made whilst trying to figure out the React
-              rendering process. Probably the most crucial and interesting thing
-              I learnt from this project.
-            </figcaption>
-          </figure>
         </ArticleSection>
+        <figure className="window max-w-full md:hidden">
+          <img src={reactExectuionFlowUrl} alt="Screenshot of txt file" />
+          <figcaption className="text-base px-6 py-2">
+            Figure 1 - Some notes I made whilst trying to figure out the React
+            rendering process. Probably the most crucial and interesting thing I
+            learnt from this project.
+          </figcaption>
+        </figure>
       </ArticleBody>
     </Article>
   );

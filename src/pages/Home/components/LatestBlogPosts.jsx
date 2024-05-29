@@ -18,9 +18,9 @@ export default function LatestBlogPosts() {
           </tr>
         </thead>
         <tbody className="text-lg">
-          {latest.map((blogPost) => {
+          {latest.map((blogPost, index) => {
             return blogPost ? (
-              <tr>
+              <tr key={index}>
                 <td>
                   <Link to={blogPost.path}>{blogPost.name}</Link>
                 </td>
