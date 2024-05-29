@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
-import SidebarSection from "./SidebarSection";
 import { useState } from "react";
+
+import SidebarSection from "./SidebarSection";
 import homeIconUrl from "../assets/images/home-icon.png";
+import blogPostData from "../utils/blogPostData";
+import projectData from "../utils/projectData";
 
 export default function Sidebar() {
   const [sidebarHidden, setSidebarHidden] = useState(false);
@@ -41,19 +44,24 @@ export default function Sidebar() {
         </div>
         <SidebarSection heading="My Projects">
           <ul>
-            <li>
-              <Link to="/projects/personal-website">Personal Website</Link>
-            </li>
-            <li>
-              <Link to="/projects/studium">Studium</Link>
-            </li>
+            {projectData.map((project, index) => {
+              return (
+                <li key={index}>
+                  <Link to={project.path}>{project.name}</Link>
+                </li>
+              );
+            })}
           </ul>
         </SidebarSection>
         <SidebarSection heading="My Blog">
           <ul>
-            <li>
-              <Link to="/blog/14-05-24-first-post">14/05/24 - First Post</Link>
-            </li>
+            {blogPostData.map((blogPost, index) => {
+              return (
+                <li key={index}>
+                  <Link to={blogPost.path}>{blogPost.name}</Link>
+                </li>
+              );
+            })}
           </ul>
         </SidebarSection>
         <SidebarSection heading="Me">
