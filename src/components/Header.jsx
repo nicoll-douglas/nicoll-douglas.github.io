@@ -1,3 +1,10 @@
+import PropTypes from "prop-types";
+
+Header.propTypes = {
+  children: PropTypes.string,
+  background: PropTypes.string,
+};
+
 export default function Header({ children, background }) {
   return (
     <div

@@ -1,4 +1,14 @@
 import Header from "./Header";
+import PropTypes from "prop-types";
+
+ProjectHeader.propTypes = {
+  title: PropTypes.string.isRequired,
+  projectLink: PropTypes.string.isRequired,
+  repoLink: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string.isRequired,
+  background: PropTypes.string.isRequired,
+  finishedOn: PropTypes.string.isRequired,
+};
 
 export default function ProjectHeader({
   title,

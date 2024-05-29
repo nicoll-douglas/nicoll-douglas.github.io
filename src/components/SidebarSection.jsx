@@ -1,3 +1,10 @@
+import PropTypes from "prop-types";
+
+SidebarSection.propTypes = {
+  heading: PropTypes.string,
+  children: PropTypes.node,
+};
+
 export default function SidebarSection({ heading, children }) {
   return (
     <div>

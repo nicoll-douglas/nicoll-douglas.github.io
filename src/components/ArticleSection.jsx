@@ -1,3 +1,11 @@
+import PropTypes from "prop-types";
+
+ArticleSection.propTypes = {
+  children: PropTypes.node,
+  heading: PropTypes.string,
+  headingColor: PropTypes.string,
+};
+
 export default function ArticleSection({ heading, headingColor, children }) {
   return (
     <section>

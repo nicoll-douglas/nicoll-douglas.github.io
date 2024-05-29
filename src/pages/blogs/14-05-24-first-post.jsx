@@ -1,4 +1,3 @@
-import Header from "../../components/Header";
 import Article from "../../components/Article";
 import ArticleBody from "../../components/ArticleBody";
 import ArticleSection from "../../components/ArticleSection";

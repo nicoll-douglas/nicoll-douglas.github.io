@@ -1,4 +1,10 @@
 import Header from "./Header";
+import PropTypes from "prop-types";
+
+BlogHeader.propTypes = {
+  date: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+};
 
 export default function BlogHeader({ date, title }) {
   return (
