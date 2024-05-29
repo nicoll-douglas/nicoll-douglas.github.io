@@ -1,17 +1,18 @@
 import Article from "../../components/Article";
 import ArticleBody from "../../components/ArticleBody";
-import ArticleHeader from "../../components/ArticleHeader";
+import ProjectHeader from "../../components/ProjectHeader";
 import ArticleSection from "../../components/ArticleSection";
 import starUrl from "../../assets/images/star.gif";
 
 export default function PersonalWebsite() {
   return (
     <Article>
-      <ArticleHeader
+      <ProjectHeader
         background="bg-yellow-100"
         imageUrl={starUrl}
         title="My Personal Website"
         repoLink="https://github.com/nicoll-douglas/nicoll-douglas.github.io"
+        finishedOn="14/05/24"
       />
       <ArticleBody>
         <ArticleSection heading="Background" headingColor="text-red-600">

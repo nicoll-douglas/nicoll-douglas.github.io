@@ -1,20 +1,19 @@
 import Header from "../../components/Header";
 import Article from "../../components/Article";
 import ArticleBody from "../../components/ArticleBody";
+import ArticleSection from "../../components/ArticleSection";
+import BlogHeader from "../../components/BlogHeader";
 import wizardTypingUrl from "../../assets/images/wizard-typing.gif";
 
 export default function FirstPost() {
   return (
     <Article>
-      <Header background="bg-gray-300">
-        <div className="flex flex-col text-xl mx-5">
-          <h1 className="text-5xl">First Post</h1>
-          <p>14/05/24</p>
-        </div>
-      </Header>
+      <BlogHeader title="First Post" date="14/05/24" />
       <ArticleBody>
-        <section className="flex flex-col gap-4 mb-6">
-          <h2 className="text-2xl text-red-600">Welcome to the blog :-)</h2>
+        <ArticleSection
+          heading="Welcome to the blog :-)"
+          headingColor="text-red-600"
+        >
           <p>
             This series of pages will serve as a record for my coding progress
             via posts I plan to add to this blog every once in a while. Not only
@@ -23,9 +22,8 @@ export default function FirstPost() {
             also people interested in reading about my progress and so,
             naturally, this will be a more aggregate, complete record of that.
           </p>
-        </section>
-        <section className="flex flex-col gap-4">
-          <h2 className="text-2xl text-teal-800">Recent Progress</h2>
+        </ArticleSection>
+        <ArticleSection heading="Recent Progress" headingColor="text-teal-800">
           <p>
             So as for what I{"'"}ve been doing recently, I{"'"}ve been working
             on a project called Studium. This is a relatively large frontend web
@@ -66,12 +64,12 @@ export default function FirstPost() {
             React along the way and continually progressing.
           </p>
           <p>More updates to come :-)</p>
-        </section>
-        <img
-          src={wizardTypingUrl}
-          className="w-64"
-          alt="gif of typing wizard"
-        />
+          <img
+            src={wizardTypingUrl}
+            className="w-64"
+            alt="gif of typing wizard"
+          />
+        </ArticleSection>
       </ArticleBody>
     </Article>
   );

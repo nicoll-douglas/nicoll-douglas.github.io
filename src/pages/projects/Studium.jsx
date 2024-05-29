@@ -1,19 +1,20 @@
 import rubiksCubeUrl from "../../assets/images/rubiks-cube.webp";
 import reactExectuionFlowUrl from "../../assets/images/react-execution-flow.png";
 import Article from "../../components/Article";
-import ArticleHeader from "../../components/ArticleHeader";
+import ProjectHeader from "../../components/ProjectHeader";
 import ArticleBody from "../../components/ArticleBody";
 import ArticleSection from "../../components/ArticleSection";
 
 export default function Studium() {
   return (
     <Article>
-      <ArticleHeader
+      <ProjectHeader
         background="bg-orange-200"
         imageUrl={rubiksCubeUrl}
         title="Studium"
         projectLink="https://nicoll-douglas.github.io/studium"
         repoLink="https://github.com/nicoll-douglas/studium"
+        finishedOn="29/05/24"
       />
       <ArticleBody>
         <ArticleSection heading="Background" headingColor="text-teal-700">

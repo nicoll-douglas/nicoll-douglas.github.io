@@ -27,7 +27,7 @@ export default function MainText() {
       </p>
       <p className="mt-4">
         On this informal website you can find a showcase of some projects that I
-        have worked on, links, as well as a blog that I plan to add to monthly
+        have worked on, links, as well as a blog that I plan to add to regularly
         where I write about my journey and progress in learning to code. Take a
         look around! :-)
       </p>
