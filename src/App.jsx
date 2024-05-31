@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 import "./App.css";
 import "98.css";
@@ -10,8 +10,15 @@ import PersonalWebsite from "./pages/projects/PersonalWebsite";
 import Studium from "./pages/projects/Studium";
 import FirstPost from "./pages/blogs/14-05-24-first-post";
 import TheReactArcContinues from "./pages/blogs/29-05-24-the-react-arc-continues";
+import { useEffect } from "react";
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <Routes>
       <Route element={<Base />}>
