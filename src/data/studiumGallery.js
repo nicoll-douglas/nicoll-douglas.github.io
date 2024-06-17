@@ -1,10 +1,10 @@
-import homeUrl from "../assets/projectScreenshots/home.png";
-import dashboardUrl from "../assets/projectScreenshots/dashboard.png";
-import toDoListUrl from "../assets/projectScreenshots/to-do-list.png";
-import notesUrl from "../assets/projectScreenshots/notes.png";
-import bookmarksUrl from "../assets/projectScreenshots/bookmarks.png";
-import pomodoroUrl from "../assets/projectScreenshots/pomodoro.png";
-import calculatorUrl from "../assets/projectScreenshots/calculator.png";
+import homeUrl from "../assets/projectScreenshots/studium/home.png";
+import dashboardUrl from "../assets/projectScreenshots/studium/dashboard.png";
+import toDoListUrl from "../assets/projectScreenshots/studium/to-do-list.png";
+import notesUrl from "../assets/projectScreenshots/studium/notes.png";
+import bookmarksUrl from "../assets/projectScreenshots/studium/bookmarks.png";
+import pomodoroUrl from "../assets/projectScreenshots/studium/pomodoro.png";
+import calculatorUrl from "../assets/projectScreenshots/studium/calculator.png";
 
 class GalleryItem {
   constructor(url, caption) {
