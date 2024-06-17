@@ -3,8 +3,8 @@ import { useState } from "react";
 
 import SidebarSection from "./SidebarSection";
 import homeIconUrl from "../assets/images/home-icon.png";
-import blogPostData from "../utils/blogPostData";
-import projectData from "../utils/projectData";
+import blogPostData from "../data/blogPostData.jsx";
+import projectData from "../data/projectData.jsx";
 
 export default function Sidebar() {
   const [sidebarHidden, setSidebarHidden] = useState(true);
