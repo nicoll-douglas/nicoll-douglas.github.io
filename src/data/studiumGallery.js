@@ -1,5 +1,5 @@
 import homeUrl from "../assets/projectScreenshots/studium/home.png";
-import dashboardUrl from "../assets/projectScreenshots/studium/dashboard_.png";
+import dashboardUrl from "../assets/projectScreenshots/studium/dashboard.png";
 import toDoListUrl from "../assets/projectScreenshots/studium/to-do-list.png";
 import notesUrl from "../assets/projectScreenshots/studium/notes.png";
 import bookmarksUrl from "../assets/projectScreenshots/studium/bookmarks.png";
