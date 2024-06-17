@@ -2,7 +2,7 @@ import Article from "../../components/Article";
 import ArticleBody from "../../components/ArticleBody";
 import ArticleSection from "../../components/ArticleSection";
 import BlogHeader from "../../components/BlogHeader";
-import reactNodeMemeUrl from "../../assets/images/react-node-meme.jpg";
+import elephantUrl from "../../assets/images/elephant.webp";
 
 export default function TheBackendArc() {
   return (
@@ -71,7 +71,7 @@ export default function TheBackendArc() {
             a decent portfolio project. I shall keep working on it for now but
             more updates to come.
           </p>
-          <img className="window max-w-96" src={reactNodeMemeUrl} />
+          <img className="max-w-76" src={elephantUrl} />
         </ArticleSection>
       </ArticleBody>
     </Article>
