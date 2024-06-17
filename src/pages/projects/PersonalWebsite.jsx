@@ -24,27 +24,9 @@ export default function PersonalWebsite() {
             and as a record that might be nice to have in future.
           </p>
           <p>
-            This project is actually a proper full remake of a project I made
-            when I originally started coding. I{"'"}m very into vaporwave and
-            old 90s web aesthetics and so when I was first started learning HTML
-            and CSS, I had the idea to build a mock personal website in such a
-            style. The idea allowed me to work on a project I would enjoy as
-            well as allow me to practice structuring and styling a simple,
-            static webpage composed of HTML and CSS (which is really all 90s
-            websites are and were)—a good initial project.
-          </p>
-          <p>
-            Much further along in my coding journey when I made this project, I
-            decided to remake it given how much my skills had improved as well
-            as gaining new ones such as working with CSS libraries, JavaScript
-            and React. However, the bigger difference would be that this is a
-            project that I now actively update and maintain as an official
-            website of mine instead of it being another project that I leave to
-            rot and age in my file system.
-          </p>
-          <p>
-            The tools I used to build this site include React, Vite, TailwindCSS
-            and{" "}
+            As someone who{"'"}s into Vaporwave and 90s web aesthetics, this
+            website was heavily inspired by that if you were wondering and the
+            tools I used to build it include React, Vite, TailwindCSS and{" "}
             <a href="https://jdan.github.io/98.css/" target="_blank">
               98.css
             </a>
@@ -52,14 +34,7 @@ export default function PersonalWebsite() {
             <a href="https://github.com/jdan" target="_blank">
               Jordan Scales
             </a>
-            . Although this project doesn{"'"}t include much React-driven UI
-            interactivity, it was certainly an invaluable learning experience.
-            The major thing that I gained from this project was becoming
-            comfortable working with React routing. The original project was
-            actually just a series of different webpages, with HTML and CSS that
-            I copy and pasted for the layout, having no clue how multi-page
-            applications and websites worked haha. I have definitely grown a lot
-            since those days and this project is a part of that.
+            . Be sure to take a look around if you haven{"'"}t already!
           </p>
         </ArticleSection>
       </ArticleBody>

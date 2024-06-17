@@ -18,11 +18,14 @@ export default function TheReactArcContinues() {
             remastered version in React, it has probably taken me about 5 weeks.
             But every single part of the process, trying one way,
             re-strategising, learning new skills, trying another way, has been a
-            really good experience and I{"'"}ve learnt a lot. A lot of details
-            on all that <Link to="/projects/studium">here</Link>. This project
-            is also the last time I ever build the cliché to do list or notes
-            application, but they have have been some good learning exercises at
-            every step of my journey nonetheless.
+            really good experience and I{"'"}ve learnt a lot. Not only that but
+            I definitely gotten to grips with React as I aspired to, which I
+            mentioned in the last post. Thus I consider this project a major
+            success, some more details on it{" "}
+            <Link to="/projects/studium">here</Link>. This project is also the
+            last time I ever build the cliché to do list or notes application,
+            but they have have been some good learning exercises at every step
+            of my journey nonetheless.
           </p>
         </ArticleSection>
         <ArticleSection heading="Next Steps" headingColor="text-blue-800">
