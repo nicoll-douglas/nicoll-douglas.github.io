@@ -53,6 +53,7 @@ export default function Studium() {
               A real time dashboard to view user-created items and current timer
             </li>
             <li>Drag and drop functionality</li>
+            <li>Dark mode</li>
           </ul>
         </ArticleSection>
         <ArticleSection heading="Gallery" headingColor="text-purple-700">
