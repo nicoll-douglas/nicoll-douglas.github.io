@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Resources</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <script type="module" crossorigin src="/assets/main-CR_apRtZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-KQm8qGZA.css">
+    <link rel="stylesheet" crossorigin href="/assets/coding-resources-BSY2iZLp.css">
+  </head>
+  <body>
+    <header class="w-full flex-col flex items-center justify-center px-4 py-8">
+      <div class="flex items-center justify-center gap-4">
+        <img
+          aria-hidden
+          src="/assets/chain-left-DWzorrMT.gif"
+          class="md:hidden"
+          width="100"
+          height="100"
+        />
+        <img
+          src="/assets/globe-2-C7O8ND2C.gif"
+          aria-hidden="true"
+          class="md:hidden"
+          width="100"
+          height="100"
+        />
+        <div class="flex flex-col items-center">
+          <h1
+            class="text-center font-times text-7xl lg:text-6xl font-bold text-green-200"
+          >
+            Coding resources
+          </h1>
+        </div>
+        <img
+          src="/assets/globe-2-C7O8ND2C.gif"
+          aria-hidden="true"
+          class="md:hidden"
+          width="100"
+          height="100"
+        />
+        <img
+          aria-hidden
+          src="/assets/chain-right-DUyYn6eg.gif"
+          class="md:hidden"
+          width="100"
+          height="100"
+        />
+      </div>
+      <img
+        src="/assets/computer-ekBrGtix.gif"
+        aria-hidden
+        width="174"
+        height="73"
+      />
+    </header>
+    <nav
+      class="flex-wrap bg-rock window flex items-center justify-center max-w-fit mx-auto px-16 gap-2 font-times text-xl font-bold text-white text-center"
+    >
+      <a href="#courses" class="text-white visited:text-red-200">
+        Courses & General Learning
+      </a>
+      |
+      <a class="text-white visited:text-red-200" href="#documentation">
+        Documentation
+      </a>
+      |
+      <a class="text-white visited:text-red-200" href="#youtube"> YouTube </a>
+      |
+      <a class="text-white visited:text-red-200" href="#cheatsheets">
+        Cheatsheets
+      </a>
+      |
+      <a class="text-white visited:text-red-200" href="#design"> UI/UX </a>
+      |
+      <a class="text-white visited:text-red-200" href="#miscellaneous">
+        Miscellaneous
+      </a>
+    </nav>
+    <div class="flex gap-8">
+      <div
+        class="flex flex-col justify-between xl:hidden w-[200px]"
+        aria-hidden
+      >
+        <div class="flex flex-col gap-8">
+          <img src="/assets/penguin-type-Y2jVn8mu.gif" />
+          <img src="/assets/mouse-2-DBvrqbUZ.gif" />
+        </div>
+        <img src="/assets/book-w51NzyT-.gif" />
+        <img src="/assets/telescope-Dir3giL_.gif" width="150" />
+        <img src="/assets/sketch-C7l-zAXH.gif" />
+      </div>
+      <div
+        class="flex flex-1 flex-col gap-4 items-start max-w-[1024px] mx-auto"
+      >
+        <main
+          aria-label="About"
+          class="flex flex-col items-center justify-center mx-auto font-times text-lg text-center font-bold my-8"
+        >
+          <img
+            src="/assets/read-first-BZX88z88.gif"
+            aria-hidden
+            class="mb-2"
+            width="204"
+            height="42"
+          />
+          <p class="text-white">
+            Here you can find a repository of online resources that I consider
+            good or useful when it comes to learning how to code or just useful
+            resources in general. These are for anyone who wishes to learn to
+            code and wants to know where to get started as well as for my own
+            personal use. I recommend bookmarking the ones you find most useful.
+            <img
+              src="data:image/gif;base64,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"
+              aria-hidden
+              width="120"
+              height="20"
+              class="inline"
+            />
+          </p>
+          <h2 class="text-blue-100 text-2xl underline mt-12 mb-2">
+            A Note For Fellow Learners
+          </h2>
+          <p class="text-white">
+            My number one piece of advice would be to always prefer building
+            projects over watching tutorials. If you put yourself in a position
+            where you have to solve a problem you don&apos;t know how to solve,
+            you will be forced to learn how to solve it. Use learning resources
+            and tutorials as a way to gain knowledge but remember that the
+            truest implications of something you learn will only be revealed in
+            a problem setting. And regardless of what level you&apos;re at,
+            there is always something you can build, whether it&apos;s building
+            a simple program that adds 2 numbers or a piece of large-scale
+            software. In either, there is something you can learn and you can
+            google your way to success. 1000 projects under your belt will
+            always be better than 1000 tutorials watched because of this.
+          </p>
+          <p class="mt-4 text-white">
+            Happy coding!
+            <img
+              aria-hidden
+              src="/assets/smiley-4-BPPYzGjg.gif"
+              width="50"
+              height="50"
+              class="inline"
+            />
+          </p>
+          <img
+            class="my-4 md:hidden"
+            aria-hidden
+            src="/assets/separator-2-DKPKIxgl.gif"
+            width="502"
+            height="7"
+          />
+          <hr class="hidden md:flex w-full my-4" />
+        </main>
+        <section aria-labelledby="courses" class="resource-list">
+          <h2 id="courses">Courses & General Learning</h2>
+          <hr />
+          <div>
+            <p>A good place to start if new.</p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://www.codecademy.com/">
+                  Codecademy </a
+                >- Various free and diverse courses for different programming
+                topics and roles. Good for starting out.
+              </li>
+              <li>
+                <a target="_blank" href="https://www.theodinproject.com/">
+                  The Odin Project </a
+                >- Probably the best course out there for learning web
+                development.
+              </li>
+              <li>
+                <a target="_blank" href="https://roadmap.sh/">roadmap.sh</a> - A
+                site that has several different learning roadmaps for different
+                roles and languages. Has other external resources and good to
+                follow along with when learning.
+              </li>
+              <li>
+                <a target="_blank" href="https://www.w3schools.com/">
+                  W3Schools </a
+                >- Lots of documentation for different programming languages
+                with short tutorials and examples.
+              </li>
+              <li>
+                <a target="_blank" href="https://www.codewars.com/">
+                  Codewars </a
+                >- A website where you can undertake coding problems and
+                challenges to test your skills. Good form of hands-on learning.
+              </li>
+              <li>
+                <a target="_blank" href="https://chatgpt.com/"> ChatGPT </a>-
+                Good source of quick, tailored, on-the-fly responses to things
+                you want to know more about. Good for programming.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section aria-labelledby="documentation" class="resource-list">
+          <h2 id="documentation">Documentation</h2>
+          <hr />
+          <div>
+            <p>
+              Comprehensive documentation of different programming languages
+              that I have used at some point. Good if you want nitty gritty,
+              detailed knowledge. If something you are interested in is not in
+              this list, you can easily google it (e.g &quot;C#
+              documentation&quot;).
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://developer.mozilla.org/en-US/">
+                  MDN Web Docs
+                </a>
+                - The best piece of documentation for development on the web.
+                All you need to know about HTML, CSS, JavaScript, HTTP, Web
+                API&apos;s, Web Accessibility and more.
+              </li>
+              <li>
+                <a target="_blank" href="https://docs.python.org/3/">
+                  Python
+                </a>
+                - The official Python documentation.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://docs.oracle.com/javase/8/docs/api/"
+                >
+                  Java
+                </a>
+                - The official Java documentation.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://nodejs.org/docs/latest-v20.x/api/index.html"
+                >
+                  Node.js
+                </a>
+                - The official Node.js documenation.
+              </li>
+              <li>
+                <a target="_blank" href="https://www.php.net/manual/en/">
+                  PHP
+                </a>
+                - The official PHP documentation.
+              </li>
+              <li>
+                <a target="_blank" href="https://git-scm.com/doc">
+                  Git Documentation
+                </a>
+                - The official documentation for Git, the version control
+                software.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section aria-labelledby="youtube" class="resource-list">
+          <h2 id="youtube">YouTube</h2>
+          <hr />
+          <div>
+            <p>Good all-around Youtube channels for learning how to code.</p>
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/c/Freecodecamp"
+                >
+                  freeCodeCamp
+                </a>
+                - Comprehensive tutorials on different programming languages and
+                projects.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UC4SVo0Ue36XCfOyb5Lh1viQ"
+                >
+                  BroCode
+                </a>
+                - Comprehensive and no-nonsense coding tutorials.
+              </li>
+              <li>
+                <a target="_blank" href="https://www.youtube.com/c/fireship">
+                  Fireship
+                </a>
+                - Short form tutorials as well as informational videos about the
+                tech and coding space.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/c/WebDevSimplified"
+                >
+                  Web Dev Simplified
+                </a>
+                - One of the best Youtube channels for learning web development.
+                Simple, no-nonsense, easy to follow along and highly
+                informational.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/c/programmingwithmosh"
+                >
+                  Mosh Hamedani
+                </a>
+                - Comprehensive tutorials similar to freeCodeCamp.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/@TraversyMedia"
+                >
+                  TraversyMedia
+                </a>
+                - Crash courses on several programming languages and subjects.
+              </li>
+              <li>
+                <a target="_blank" href="https://www.youtube.com/@KevinPowell">
+                  Kevin Powell
+                </a>
+                - Pragmatic tutorials when it comes to learning and mastering
+                CSS.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section aria-labelledby="cheatsheets" class="resource-list">
+          <h2 id="cheatsheets">Cheatsheets</h2>
+          <hr />
+          <div>
+            <p>
+              Good for if you forget something or just want the fastest possible
+              answer to niche subjects or anything in general. Here are some
+              that I have used or would use.
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://cs.fyi/guide/git-cheatsheet">
+                  Git Cheatsheet
+                </a>
+                - Cheatsheet for Git, the version control software.
+              </li>
+              <li>
+                <a target="_blank" href="https://htmlcheatsheet.com/css/">
+                  CSS Cheatsheet
+                </a>
+                - A cheatsheet for CSS with interactive examples.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.geeksforgeeks.org/html-cheat-sheet/"
+                >
+                  HTML Cheatsheet
+                </a>
+                - A good HTML cheatsheet to tell you about tags, attributes and
+                syntax.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://cheatsheetseries.owasp.org/index.html"
+                >
+                  Web Security Cheatsheet
+                </a>
+                - A web security cheatsheet I use to improve the security of my
+                web projects.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types"
+                >
+                  MIME Types Cheatsheet
+                </a>
+                - If you are ever developing for the web like me and need to
+                know the MIME type for different files.
+              </li>
+              <li>
+                <a target="_blank" href="https://www.bigocheatsheet.com/">
+                  Big O Cheatsheet
+                </a>
+                - If you are studying data structures & algorithms and need to
+                know about space/time complexity.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section aria-labelledby="design" class="resource-list">
+          <h2 id="design">UI/UX</h2>
+          <hr />
+          <div>
+            <p>
+              Resources for when working with user interfaces and design.
+              Sources for good images, inspiration, design tools and more.
+            </p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://fonts.google.com/">
+                  Google Fonts
+                </a>
+                - A font library of easily downloadable and free to use fonts.
+                Also comes with an icon library.
+              </li>
+              <li>
+                <a target="_blank" href="https://www.figma.com/"> Figma </a> -
+                Powerful, industry-standard and free to use design software.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://jakearchibald.github.io/svgomg/"
+                >
+                  SVGOMG
+                </a>
+                - A tool for optimising SVG files.
+              </li>
+              <li>
+                <a target="_blank" href="https://minimal.gallery/">
+                  Minimal Gallery
+                </a>
+                - A collection of beautiful, slick and modern websites to use as
+                inspiration.
+              </li>
+              <li>
+                <a target="_blank" href="https://www.manypixels.co/gallery">
+                  ManyPixels
+                </a>
+                - An illustration library for minimal but beautiful
+                illustrations and SVGs.
+              </li>
+              <li>
+                <a target="_blank" href="https://colorhunt.co/"> Color Hunt </a>
+                - A source for color palettes.
+              </li>
+              <li>
+                <a target="_blank" href="https://www.designspiration.com/">
+                  Designspiration
+                </a>
+                - A collection of images and graphic design pieces to use as
+                inspiration.
+              </li>
+              <li>
+                <a target="_blank" href="https://gifcities.org/"> GifCities </a>
+                - An archive of old GIFs from the 90s/00s web. Many that I have
+                used on this website.
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://anlucas.neocities.org/88x31Buttons"
+                >
+                  A.N Lucas&apos; Buttons
+                </a>
+                - A collection of 88x31 buttons, a hallmark feature of websites
+                from the old web.
+              </li>
+              <li>
+                <a target="_blank" href="https://github.com/jdan/98.css">
+                  98.css
+                </a>
+                - A design system for creating Windows 98 inspired UIs.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section aria-labelledby="miscellaneous" class="resource-list">
+          <h2 id="miscellaneous">Miscellaneous</h2>
+          <hr />
+          <div>
+            <p>Random tools that come in handy sometimes.</p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://placebear.com/">
+                  Placebear API
+                </a>
+                - An API for placeholder images when designing or coding.
+              </li>
+              <li>
+                <a target="_blank" href="https://readme.so/">readme.so</a>- A
+                convenient tools for creating markdown files for your projects.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <img
+          src="/assets/typing-DEJvIq6j.gif"
+          width="200"
+          aria-hidden
+          class="fixed bottom-0 right-0 sm:hidden"
+        />
+        <img
+          src="/assets/ad-cola-CKXWF7Wg.jpg"
+          class="mx-auto my-2 sm:hidden"
+          aria-hidden
+        />
+      </div>
+      <div
+        class="flex flex-col justify-between w-[200px] xl:hidden"
+        aria-hidden
+      >
+        <div class="flex flex-col gap-20">
+          <div>
+            <img
+              src="/assets/caterpillar-CKJnHmrc.gif"
+              class="inline"
+            />
+            <img
+              src="/assets/caterpillar-CKJnHmrc.gif"
+              class="inline"
+            />
+          </div>
+          <img src="/assets/wizard-2-0zmChpsM.gif" />
+        </div>
+        <img src="/assets/book-2-DpjROfj7.gif" height="150" />
+        <img src="/assets/bookmark-3-BONFvSFv.gif" />
+        <img src="/assets/gohan-CZt--u0X.gif" width="180" />
+      </div>
+    </div>
+    <footer>
+      <div
+        class="hot-links"
+        data-prev="/minecraft-builds"
+        data-next="/"
+        data-home="true"
+        data-top="true"
+      ></div>
+    </footer>
+  </body>
+</html>
