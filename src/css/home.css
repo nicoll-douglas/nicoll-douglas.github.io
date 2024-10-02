@@ -1,0 +1,30 @@
+.star-heading {
+  @apply text-center text-xl font-times font-bold text-blue-800 flex gap-2 items-center justify-center;
+}
+
+.sidebar-list-item {
+  background: url("@/assets/images/backgrounds/bg-marble.png");
+  @apply p-4 flex items-center justify-center;
+}
+
+.site-update {
+  background: url("@/assets/images/backgrounds/bg-marble.png");
+  @apply p-1 font-times text-lg leading-5 flex items-center justify-center;
+}
+
+.site-update span {
+  @apply text-purple-700;
+}
+
+.song-button {
+  @apply text-base py-1 text-black block leading-4 w-full hover:bg-gradient-to-r from-pink-300 to-cyan-300 hover:text-blue-800;
+}
+
+.song-button:hover,
+.song-active {
+  @apply bg-gradient-to-r from-pink-300 to-cyan-300 text-blue-800;
+}
+
+.interests-subheading {
+  @apply text-white text-lg underline;
+}

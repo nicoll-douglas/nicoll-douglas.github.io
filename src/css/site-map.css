@@ -1,0 +1,19 @@
+.sitemap-l::marker {
+  content: "└";
+  @apply text-black;
+}
+
+.sitemap-l,
+.sitemap-t {
+  @apply pl-2;
+}
+
+.sitemap-t::marker {
+  content: "├";
+  @apply text-black;
+}
+
+.bg-sandstone {
+  background-image: url("@/assets/images/backgrounds/bg-sandstone.jpg") !important;
+  background-size: 250px auto;
+}

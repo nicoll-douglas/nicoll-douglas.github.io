@@ -1,0 +1,15 @@
+.mr-robot-quote {
+  @apply italic mx-16 md:mx-1;
+}
+
+.mr-robot-quote p {
+  @apply font-bold text-black font-times text-lg p-2;
+}
+
+.mr-robot-section {
+  @apply mt-10 flex flex-col gap-4;
+}
+
+.mr-robot-section h2 {
+  @apply text-2xl;
+}

@@ -1,0 +1,15 @@
+.palm-curtain {
+  background: url("@img/palm-tree-6.gif");
+  background-size: 80px auto;
+  @apply min-h-dvh w-20 fixed top-0 z-50 lg:hidden;
+}
+
+.bg-frame-1 {
+  background: url("@img/frame.png");
+  background-size: cover;
+}
+
+.bg-frame-2 {
+  background: url("@img/frame-2.png");
+  background-size: cover;
+}

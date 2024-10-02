@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site map of Jiggy's webspace" />
+    <title>Site Map</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="max-w-fit flex flex-col items-center">
+      <header class="flex items-center justify-center gap-2">
+        <img
+          src="/src/assets/images/common/compass-1.gif"
+          aria-hidden
+          width="88"
+          height="88"
+        />
+        <h1 class="font-times text-orange-200 text-7xl font-bold">Site Map</h1>
+        <img
+          src="/src/assets/images/common/compass-2.gif"
+          aria-hidden
+          width="60"
+          height="60"
+        />
+      </header>
+      <p class="font-times text-2xl text-white">
+        A map of Jiggy&apos;s Webspace!
+      </p>
+      <div class="flex gap-8 mt-12 items-start">
+        <img
+          src="/src/assets/images/common/map-2.gif"
+          aria-hidden
+          width="110"
+          height="134"
+          class="md:hidden"
+        />
+        <section
+          class="window p-4 bg-sandstone font-times text-lg"
+          aria-label="Site Map"
+        >
+          <ul class="list-none">
+            <li class="sitemap-l">
+              <div class="web-btn" style="display: inline"></div>
+            </li>
+            <ul class="ml-6 list-none">
+              <li class="sitemap-t">
+                <p class="flex items-center">
+                  Site Map (You are here <img class="status-ball" />)
+                </p>
+              </li>
+              <li class="sitemap-t">
+                <a href="/links">Links</a>
+              </li>
+              <li class="sitemap-t">
+                <a href="/cars">Cars</a>
+              </li>
+              <li class="sitemap-t">
+                <a href="/favourite-places">Favourite Places</a>
+              </li>
+              <li class="sitemap-t">
+                <a href="/mr-robot">Mr Robot</a>
+              </li>
+              <li class="sitemap-t">
+                <a href="/minecraft-builds">Minecraft Builds</a>
+              </li>
+              <li class="sitemap-l">
+                <a href="/coding-resources">Coding Resources</a>
+              </li>
+            </ul>
+          </ul>
+        </section>
+        <img
+          src="/src/assets/images/common/map-2.gif"
+          aria-hidden
+          width="110"
+          height="134"
+          class="md:hidden"
+        />
+      </div>
+      <footer class="flex justify-center items-center flex-col mt-4">
+        <p class="font-times text-lg text-white max-w-[500px]">
+          You can also browse the site using the buttons below to move across
+          the subpages in the order in which they appear on the map.
+        </p>
+        <img
+          src="/src/assets/images/common/arrow.gif"
+          aria-hidden
+          width="30"
+          height="40"
+          class="mt-4"
+        />
+        <div
+          data-home="true"
+          data-top="false"
+          data-prev="/"
+          data-next="/links"
+          class="hot-links"
+        ></div>
+      </footer>
+    </div>
+    <script src="/src/main.js" type="module"></script>
+    <script src="/src/js/site-map/index.js" type="module"></script>
+  </body>
+</html>
