@@ -1,24 +1,14 @@
-<h1>Jiggy's Webspace</h1>
-<p>My personal website designed in an old y2k style where you can find out information about my interests as well as things I like. Built with TailwindCSS, <a href="https://github.com/jdan/98.css">98.css</a> and vanilla JS.</p>
+# Jiggy's Webspace
 
-[Jiggy's Webspace](https://nicoll-douglas.github.io)
+My personal website designed in an old Y2K style where you can find out information about my interests as well as things I like. Just my little corner of the web to work on during my downtime.
 
-![website header](proj/screenie-5.png)
+## Technologies
 
-<h2>Installation</h2>
-If you wish to install and run this project locally:
+- HTML, CSS, JavaScript
+- TailwindCSS
+- [98.css](https://github.com/jdan/98.css)
+- Vite
 
-1. `git clone git@github.com:nicoll-douglas/nicoll-douglas.git`
+## Screenshots
 
-2. <code>cd nicoll-douglas</code>
-
-3. <code>npm install</code>
-
-4. <code>npm run dev</code>
-
-<h2>Features</h2>
-<ul>
-  <li>Quirky and aesthetic design</li>
-  <li>Responsive design & web accessible</li>
-  <li>Easy site navigation</li>
-</ul>
+![Screenhot](https://github.com/nicoll-douglas/nicoll-douglas.github.io/blob/main/proj/screenie-5.png?raw=true)
