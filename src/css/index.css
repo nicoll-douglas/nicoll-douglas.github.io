@@ -33,7 +33,7 @@ hr {
 
 h2 {
   font-weight: 900;
-  @apply leading-9 text-yellow-200 font-times text-4xl;
+  @apply leading-9 text-yellow-200 font-times text-5xl;
 }
 
 ::selection {
@@ -64,7 +64,7 @@ h2 {
 }
 
 .rainbow-list li {
-  @apply flex;
+  @apply flex text-lg leading-5;
 }
 
 .rainbow-list {
