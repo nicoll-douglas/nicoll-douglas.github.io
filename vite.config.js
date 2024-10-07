@@ -11,6 +11,7 @@ export default defineConfig({
         main: "./index.html",
         cars: "./cars.html",
         links: "./links.html",
+        collages: "./collages.html",
         "site-map": "./site-map.html",
         "favourite-places": "./favourite-places.html",
         "mr-robot": "./mr-robot.html",

@@ -10,6 +10,7 @@ export default {
     "./mr-robot.html",
     "./minecraft-builds.html",
     "./coding-resources.html",
+    "./collages.html",
     "./src/**/*.js",
   ],
   theme: {
