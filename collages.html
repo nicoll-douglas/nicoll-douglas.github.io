@@ -8,11 +8,19 @@
   </head>
   <body>
     <div
-      class="flex items-center justify-center window max-w-fit mx-auto font-times bg-yellow-50 px-6"
+      class="flex items-center justify-center window max-w-fit mx-auto font-times bg-yellow-50 px-6 py-2"
     >
-      <img src="/src/assets/images/common/camera.gif" aria-hidden="true" />
+      <img
+        src="/src/assets/images/common/camera.gif"
+        aria-hidden="true"
+        class="xs:hidden"
+      />
       <h1 class="text-5xl text-red-600">Collages!</h1>
-      <img src="/src/assets/images/common/camera-2.gif" aria-hidden="true" />
+      <img
+        src="/src/assets/images/common/camera-2.gif"
+        aria-hidden="true"
+        class="xs:hidden"
+      />
     </div>
     <img
       src="/src/assets/images/common/camera-3.gif"
@@ -24,97 +32,31 @@
     >
       On this page you can find some cool pinterest collages I made whilst I was
       bored. I tried to collect together some images that are unique and fit a
-      cool vibe. Enjoy ig!
+      cool vibe. Enjoy!
+      <img src="/src/assets/images/common/smiley-6.gif" class="inline" />
     </p>
+    <section aria-label="Collage 1" class="flex flex-col items-center mt-20">
+      <heading class="text-4xl text-yellow-300 mb-4 underline">#1</heading>
+      <div
+        class="mx-auto flex flex-wrap items-center justify-center max-w-[1024px]"
+        id="blue-collage"
+      ></div>
+    </section>
+    <section aria-label="Collage 2" class="flex flex-col items-center mt-28">
+      <heading class="text-4xl text-yellow-300 mb-4 underline">#2</heading>
+      <div
+        class="mx-auto flex flex-wrap items-center justify-center max-w-[1024px]"
+        id="orange-collage"
+      ></div>
+    </section>
     <div
-      class="mx-auto mt-16 flex flex-wrap items-center justify-center max-w-[1024px]"
-      id="blue-collage"
-    >
-      <img
-        src="/src/assets/images/collages/blue/blue-1.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-2.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-3.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-4.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-5.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-6.gif"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-7.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-8.gif"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-9.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-10.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-11.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-12.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-13.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-14.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-15.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-16.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-17.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-18.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-19.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-20.jpg"
-        class="max-h-48 window"
-      />
-      <img
-        src="/src/assets/images/collages/blue/blue-21.jpg"
-        class="max-h-48 window"
-      />
-    </div>
+      class="hot-links mt-32"
+      data-prev="/minecraft-builds"
+      data-next="/coding-resources"
+      data-home="true"
+      data-top="true"
+    ></div>
     <script src="/src/main.js" type="module"></script>
+    <script src="/src/js/collages.js" type="module"></script>
   </body>
 </html>
