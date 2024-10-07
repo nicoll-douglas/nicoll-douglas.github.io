@@ -3,4 +3,7 @@ const blinkies = import.meta.glob("@/assets/images/blinkies/*");
 
 const container = document.querySelector("#blinkies-div");
 
-appendMany(container, blinkies, "Blinkie", { width: 150, height: 20 });
+appendMany(container, blinkies, (img) => {
+  img.style.width = "150px";
+  img.style.height = "20px";
+});
