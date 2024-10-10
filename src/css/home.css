@@ -26,5 +26,5 @@
 }
 
 .interests-subheading {
-  @apply text-white text-xl mt-2 underline;
+  @apply text-white text-2xl mt-2 underline;
 }

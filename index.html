@@ -9,7 +9,7 @@
   </head>
   <body>
     <header
-      class="w-full items-center justify-center title-bar bg-none flex px-4 py-8 gap-2"
+      class="w-full items-center justify-center bg-none flex px-4 py-8 gap-2 lg:px-0"
     >
       <img
         src="/src/assets/images/common/planets-left.gif"
@@ -23,16 +23,19 @@
         src="/src/assets/images/common/palm-tree.webp"
         aria-hidden="true"
       />
-      <div
-        class="flex flex-col items-center text-center lg:w-[333px] w-[400px]"
-      >
+      <div class="flex flex-col items-center text-center lg:w-[333px]">
         <p class="text-2xl text-orange-100 font-bold">Welcome to...</p>
-        <h1
+        <!-- <h1
           class="text-7xl lg:text-6xl font-bold text-yellow-200 flex flex-col"
         >
           <span>Jiggy&apos;s </span>
           <span>Webspace</span>
-        </h1>
+        </h1> -->
+        <img
+          src="/src/assets/images/common/header.png"
+          height="200"
+          width="500"
+        />
         <img
           src="/src/assets/images/common/welcome.gif"
           class="mt-4"
@@ -143,7 +146,7 @@
               <a href="/favourite-places" class="flex items-center">
                 <img class="status-ball" />
                 <div class="flex flex-col">
-                  <span>Favourite</span>
+                  <span>My Favourite</span>
                   <span>Places</span>
                 </div>
                 <img
@@ -226,13 +229,6 @@
           height="358"
           src="/src/assets/images/common/wizard.gif"
         />
-        <img
-          class="lg:hidden"
-          aria-hidden="true"
-          width="275"
-          height="172"
-          src="/src/assets/images/common/wizard-left.gif"
-        />
       </div>
       <div class="row-span-12 col-span-8 font-times flex flex-col">
         <nav
@@ -281,14 +277,14 @@
             class="flex flex-col gap-8 text-lg font-bold leading-5 text-white mr-32 3xl:m-0"
           >
             <main id="welcome" aria-labelledby="welcome-heading">
-              <h2 id="welcome-heading">Welcome!</h2>
+              <h2 id="welcome-heading">Welcome</h2>
               <hr class="my-2" />
               <div class="flex gap-4 flex-col px-6 xl:px-0">
                 <p>
                   I am Nicoll, or
                   <em class="text-2xl text-green-200">Jiggy</em>, as I am often
                   know as, and I am the proud owner of this very cool and epic
-                  website! This is my little corner of the web that I&apos;ve
+                  website. This is my little corner of the web that I&apos;ve
                   carved out for myself where you can find cool stuff about me
                   as well as cool stuff I&apos;d like to keep somewhere.
                   <img
@@ -301,7 +297,7 @@
                 <p class="flex flex-col">
                   Some facts about me include that I am currently a 21 year old
                   dude who&apos;s learning web development in hopes of getting a
-                  job in the near future! I&apos;m also very passionate about
+                  job in the near future. I&apos;m also very passionate about
                   all sorts of things like music, anime and movies which you can
                   find more about down below.
                   <img
@@ -313,13 +309,15 @@
                 </p>
                 <p class="text-xl leading-5">
                   You can also find some links around here if you want to see
-                  some of my proper web dev work :-) (Coming soon)
+                  some of my proper web dev work.
                 </p>
                 <div class="flex gap-32 3xl:flex-col 3xl:gap-8">
                   <p class="text-yellow-200">
                     Otherwise, for now, take a look around and enjoy!
                   </p>
-                  <p class="text-2xl title-bar bg-none justify-start">
+                  <p
+                    class="text-2xl title-bar bg-none justify-start text-green-200"
+                  >
                     Network area provided by:
                     <a
                       href="https://github.com/"
@@ -684,7 +682,7 @@
         </div>
       </div>
       <hr class="hidden lg:block" />
-      <div class="flex flex-col gap-4 sm:flex-wrap">
+      <div class="flex flex-col items-center gap-4 sm:flex-wrap">
         <section
           class="window mt-20 text-base font-bold w-64 xs:w-full lg:mt-0 max-h-[800px] h-[800px]"
           aria-labelledby="site-updates"
@@ -705,7 +703,7 @@
             <div class="site-update">
               <p>
                 Recently finished a coding project I&apos;ve been working on for
-                a couple months! Also officially pushed my portfolio site to the
+                a couple months. Also officially pushed my portfolio site to the
                 web. It&apos; very incomplete as I still need to add more
                 projects but you can view my project and the site
                 <a
@@ -804,6 +802,25 @@
           class="max-w-fit flex flex-col window mt-96 lg:mt-0"
           id="blinkies-div"
         ></section>
+        <div
+          role="group"
+          aria-label="Embed my button"
+          class="flex font-times flex-col gap-5 bg-red-100 p-4 text-lg max-w-96 items-start mt-64 lg:mt-0 mb-4"
+        >
+          <p class="text-black">
+            Also feel free to embed my 88x31 button into your page if you wish!:
+          </p>
+          <div class="web-btn"></div>
+          <label for="btn-embed" class="sr-only">Code to embed:</label>
+          <textarea
+            id="btn-embed"
+            rows="8"
+            class="text-black w-full resize-none text-sm font-bold p-1"
+            readonly
+          >
+&lt;a href="https://nicoll-douglas.github.io"&gt;&lt;img src="https://raw.githubusercontent.com/nicoll-douglas/nicoll-douglas.github.io/main/src/assets/images/jiggys-webspace-btn.jpg" /&gt;&lt;/a&gt;</textarea
+          >
+        </div>
       </div>
     </div>
     <footer id="credits" class="flex flex-col gap-6 items-center">
@@ -813,7 +830,7 @@
           class="window bg-marble py-8 px-1 flex flex-col items-center justify-center"
         >
           <marquee
-            class="text-2xl text-black font-bold font-cursive"
+            class="text-2xl text-black font-bold font-cursive max-w-[600px]"
             scrollamount="9"
           >
             Special thanks to Batul, Adrian and the onglydooples for support and
@@ -834,25 +851,6 @@
             src="/src/assets/images/common/heart.gif"
           />
         </div>
-      </div>
-      <div
-        role="group"
-        aria-label="Embed my button"
-        class="flex font-times flex-col gap-5 bg-gradient-to-r from-teal-200 to-blue-300 p-4 window text-lg max-w-64 items-start"
-      >
-        <p class="text-black">
-          Also feel free to embed my 88x31 button into your page if you wish!:
-        </p>
-        <div class="web-btn"></div>
-        <label for="btn-embed" class="sr-only">Code to embed:</label>
-        <textarea
-          id="btn-embed"
-          rows="8"
-          class="text-black w-52 resize-none text-sm font-bold p-1"
-          readonly
-        >
-&lt;a href="https://nicoll-douglas.github.io"&gt;&lt;img src="https://raw.githubusercontent.com/nicoll-douglas/nicoll-douglas.github.io/main/src/assets/images/jiggys-webspace-btn.jpg" /&gt;&lt;/a&gt;</textarea
-        >
       </div>
       <div class="flex items-center">
         <img
