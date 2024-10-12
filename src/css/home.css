@@ -1,15 +1,18 @@
+body {
+  @apply p-0;
+}
+
 .star-heading {
   @apply text-center text-xl font-times font-bold text-blue-800 flex gap-2 items-center justify-center;
 }
 
 .sidebar-list-item {
   background: url("@/assets/images/backgrounds/bg-marble.png");
-  @apply p-4 flex items-center justify-center;
+  @apply p-3 flex items-center justify-center border border-gray-700 w-full;
 }
 
 .site-update {
-  background: url("@/assets/images/backgrounds/bg-marble.png");
-  @apply p-1 font-times text-lg leading-5 flex items-center justify-center;
+  @apply p-1 m-[2px] border border-gray-700 font-times text-lg leading-5 flex items-center justify-center;
 }
 
 .site-update span {
@@ -17,7 +20,7 @@
 }
 
 .song-button {
-  @apply text-base py-1 text-black block leading-4 w-full hover:bg-gradient-to-r from-pink-300 to-cyan-300 hover:text-blue-800;
+  @apply text-base p-1 text-black block leading-4 w-full hover:bg-gradient-to-r from-pink-300 to-cyan-300 hover:text-blue-800;
 }
 
 .song-button:hover,
@@ -27,4 +30,9 @@
 
 .interests-subheading {
   @apply text-white text-2xl mt-2 underline;
+}
+
+.bg-clouds {
+  background-size: 250px auto;
+  background-image: url("/src/assets/images/backgrounds/bg-clouds.gif");
 }

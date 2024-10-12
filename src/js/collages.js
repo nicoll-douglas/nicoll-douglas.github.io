@@ -9,7 +9,8 @@ const container2 = document.querySelector("#orange-collage");
 
 const imgCallback = (img) => {
   img.classList.add("collage-image");
-  img.classList.add("window");
+  img.classList.add("border");
+  img.classList.add("p-[4px]");
 };
 
 appendMany(container, images, imgCallback);

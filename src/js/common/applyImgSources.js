@@ -4,6 +4,7 @@ import ballNewUrl from "@/assets/images/common/ball-new.gif";
 import hDividerUrl from "@/assets/images/common/h-divider.gif";
 import palmTree2 from "@/assets/images/common/palm-tree-2.gif";
 import webBtnUrl from "@/assets/images/jiggys-webspace-btn.jpg";
+import separator from "@/assets/images/common/separator-4.gif";
 import setSize from "./setSize";
 
 const hDividers = [...document.querySelectorAll(".h-divider")];
@@ -56,4 +57,12 @@ webBtns.forEach((div) => {
   img.alt = "Jiggy's Webspace 88x31 button";
   a.appendChild(img);
   div.appendChild(a);
+});
+
+const separators = [...document.querySelectorAll(".separator-bar")];
+separators.forEach((img) => {
+  img.src = separator;
+  img.ariaHidden = true;
+  img.classList.add("w-full");
+  img.style.height = "10px";
 });

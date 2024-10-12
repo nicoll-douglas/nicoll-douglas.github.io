@@ -32,7 +32,6 @@ hr {
 }
 
 h2 {
-  font-weight: 900;
   @apply leading-9 text-yellow-200 font-times text-5xl;
 }
 
@@ -68,7 +67,7 @@ h2 {
 }
 
 .rainbow-list {
-  @apply list-none mx-4;
+  @apply list-none mx-4 mt-2;
 }
 
 .rainbow-list li:nth-of-type(7n - 6) {
@@ -107,4 +106,8 @@ h2 {
 
 .hot-links div {
   @apply flex flex-col items-center gap-1;
+}
+
+.window-alt {
+  @apply border-t-neutral-500 border-l-neutral-500 border-r-neutral-800 border-b-neutral-800 border-[3px];
 }

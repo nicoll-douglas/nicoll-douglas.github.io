@@ -9,224 +9,218 @@
   </head>
   <body>
     <header
-      class="w-full items-center justify-center bg-none flex px-4 py-8 gap-2 lg:px-0"
+      class="w-full items-center justify-center bg-none flex flex-col px-8 py-12 gap-2 md:px-0"
     >
-      <img
-        src="/src/assets/images/common/planets-left.gif"
-        class="w-[220px] h-[220px] md:hidden lg:h-[160px] lg:w-[160px]"
-        aria-hidden="true"
-      />
-      <img
-        class="2xl:hidden"
-        width="180"
-        height="170"
-        src="/src/assets/images/common/palm-tree.webp"
-        aria-hidden="true"
-      />
-      <div class="flex flex-col items-center text-center lg:w-[333px]">
-        <p class="text-2xl text-orange-100 font-bold">Welcome to...</p>
-        <!-- <h1
-          class="text-7xl lg:text-6xl font-bold text-yellow-200 flex flex-col"
-        >
-          <span>Jiggy&apos;s </span>
-          <span>Webspace</span>
-        </h1> -->
+      <div class="flex items-center justify-center">
+        <img
+          src="/src/assets/images/common/planets-left.gif"
+          class="w-[250px] h-[250px] md:hidden lg:h-[160px] lg:w-[160px]"
+          aria-hidden="true"
+        />
         <img
           src="/src/assets/images/common/header.png"
           height="200"
           width="500"
         />
         <img
-          src="/src/assets/images/common/welcome.gif"
-          class="mt-4"
-          alt="welcome to my home page"
-          width="211"
-          height="27"
+          src="/src/assets/images/common/planets-right.gif"
+          class="w-[250px] h-[250px] md:hidden lg:h-[160px] lg:w-[160px]"
+          aria-hidden="true"
         />
       </div>
-      <img
-        width="180"
-        height="170"
-        class="2xl:hidden"
-        src="/src/assets/images/common/palm-tree.webp"
-        aria-hidden="true"
-      />
-      <img
-        src="/src/assets/images/common/planets-right.gif"
-        class="w-[220px] h-[220px] md:hidden lg:h-[160px] lg:w-[160px]"
-        aria-hidden="true"
-      />
+      <div class="flex flex-col items-center text-center">
+        <p class="text-3xl text-blue-100 font-bold">
+          Hello world! Welcome to my webpage!
+        </p>
+        <div class="flex items-center justify-center">
+          <!-- <img
+            class="2xl:hidden"
+            width="180"
+            height="170"
+            src="/src/assets/images/common/palm-tree.webp"
+            aria-hidden="true"
+          /> -->
+          <img
+            src="/src/assets/images/common/welcome.gif"
+            class="mt-4"
+            alt="welcome to my home page"
+            width="211"
+            height="27"
+          />
+          <!-- <img
+            width="180"
+            height="170"
+            class="2xl:hidden"
+            src="/src/assets/images/common/palm-tree.webp"
+            aria-hidden="true"
+          /> -->
+        </div>
+      </div>
     </header>
-    <div class="flex gap-16 2xl:gap-8 lg:flex-col">
+    <div class="flex gap-16 2xl:gap-8 xl:flex-col px-4">
       <div class="flex flex-col gap-32 min-w-fit">
         <nav
-          class="window w-full items-center lg:max-w-96 lg:mx-auto"
+          class="window-alt flex flex-col gap-[2px] w-full items-center xl:max-w-96 xl:mx-auto bg-marble p-[2px]"
           aria-label="Site"
         >
-          <section class="w-full" aria-labelledby="pages" role="group">
-            <h2 class="star-heading" id="pages">&#9733; Pages &#9733;</h2>
-            <img class="h-divider" />
-            <div class="sidebar-list-item">
-              <div class="flex flex-col items-center">
+          <div
+            class="text-center font-times flex gap-2 items-center justify-center border border-gray-700 bg-blue-900 w-full"
+          >
+            <h2 class="text-yello-100 text-2xl font-bold">
+              &#9733; Pages &#9733;
+            </h2>
+          </div>
+          <!-- <img class="h-divider" /> -->
+          <div class="sidebar-list-item">
+            <div class="flex flex-col items-center">
+              <img class="status-ball" />
+            </div>
+            <img
+              aria-hidden="true"
+              src="/src/assets/images/common/home-icon-4.jpg"
+              height="40"
+              width="40"
+            />
+            <a href="/" aria-label="Home page">
+              <img
+                aria-hidden="true"
+                src="/src/assets/images/common/home-icon-2.gif"
+                height="60"
+                width="115"
+              />
+            </a>
+            <img
+              aria-hidden="true"
+              src="/src/assets/images/common/home-icon-3.gif"
+              width="50"
+              height="64"
+            />
+          </div>
+          <!-- <img class="h-divider" /> -->
+          <div class="sidebar-list-item">
+            <a href="/site-map" class="flex flex-col">
+              <img
+                aria-hidden="true"
+                width="75"
+                height="75"
+                src="/src/assets/images/common/map.gif"
+              />
+              <div class="flex items-center">
                 <img class="status-ball" />
+                <span class="text-lg">SiteMap</span>
+              </div>
+            </a>
+          </div>
+          <!-- <img class="h-divider" /> -->
+          <div class="sidebar-list-item">
+            <a aria-label="Links" class="flex items-center" href="/links">
+              <img class="status-ball" />
+              <img
+                aria-hidden="true"
+                src="/src/assets/images/common/links.gif"
+                width="124"
+                height="50"
+              />
+              <img
+                aria-hidden="true"
+                width="75"
+                height="70"
+                src="/src/assets/images/common/globe.gif"
+              />
+            </a>
+          </div>
+          <!-- <img class="h-divider" /> -->
+          <div class="sidebar-list-item">
+            <a href="/cars" class="flex items-center">
+              <img class="status-ball" />
+              Cars
+              <img
+                aria-hidden="true"
+                src="/src/assets/images/common/car.gif"
+                height="100"
+                width="147"
+              />
+            </a>
+          </div>
+          <!-- <img class="h-divider" /> -->
+          <div class="sidebar-list-item">
+            <a href="/favourite-places" class="flex items-center">
+              <img class="status-ball" />
+              <div class="flex flex-col">
+                <span>My Favourite</span>
+                <span>Places</span>
               </div>
               <img
                 aria-hidden="true"
-                src="/src/assets/images/common/home-icon-4.jpg"
-                height="40"
-                width="40"
+                src="/src/assets/images/common/plane.gif"
+                height="100"
+                width="125"
               />
-              <a href="/" aria-label="Home page">
-                <img
-                  aria-hidden="true"
-                  src="/src/assets/images/common/home-icon-2.gif"
-                  height="60"
-                  width="115"
-                />
-              </a>
+            </a>
+          </div>
+          <!-- <img class="h-divider" /> -->
+          <div class="sidebar-list-item">
+            <a href="/mr-robot" class="flex items-center">
+              <img class="status-ball" />
+              <div class="flex flex-col">
+                <span>An Essay on</span>
+                <span>Mr Robot</span>
+              </div>
               <img
                 aria-hidden="true"
-                src="/src/assets/images/common/home-icon-3.gif"
-                width="50"
-                height="64"
+                width="75"
+                height="101"
+                src="/src/assets/images/common/webcam.gif"
               />
-            </div>
-            <img class="h-divider" />
-            <div class="sidebar-list-item">
-              <a href="/site-map" class="flex flex-col">
-                <img
-                  aria-hidden="true"
-                  width="75"
-                  height="75"
-                  src="/src/assets/images/common/map.gif"
-                />
-                <div class="flex items-center">
-                  <img class="status-ball" />
-                  <span class="text-lg">SiteMap</span>
-                </div>
-              </a>
-            </div>
-            <img class="h-divider" />
-            <div class="sidebar-list-item">
-              <a aria-label="Links" class="flex items-center" href="/links">
+            </a>
+          </div>
+          <!-- <img class="h-divider" /> -->
+          <div class="sidebar-list-item">
+            <a href="/minecraft-builds" class="flex flex-col items-center">
+              <img
+                aria-hidden="true"
+                width="75"
+                height="75"
+                src="/src/assets/images/common/house.gif"
+              />
+              <div class="flex items-center">
                 <img class="status-ball" />
-                <img
-                  aria-hidden="true"
-                  src="/src/assets/images/common/links.gif"
-                  width="124"
-                  height="50"
-                />
-                <img
-                  aria-hidden="true"
-                  width="75"
-                  height="70"
-                  src="/src/assets/images/common/globe.gif"
-                />
-              </a>
-            </div>
-          </section>
-          <img class="h-divider" />
-          <section class="w-full" aria-labelledby="shrines" role="group">
-            <h2 class="star-heading" id="shrines">&#9733; Shrines &#9733;</h2>
-            <img class="h-divider" />
-            <div class="sidebar-list-item">
-              <a href="/cars" class="flex items-center">
+                <span>Minecraft Builds</span>
+              </div>
+            </a>
+          </div>
+          <!-- <img class="h-divider" /> -->
+          <div class="sidebar-list-item">
+            <a href="/collages">
+              <img
+                aria-hidden="true"
+                src="/src/assets/images/common/photo-album.gif"
+              />
+              <div class="flex items-center">
+                <img class="status-ball" data-variant="new" />
                 <img class="status-ball" />
-                Cars
-                <img
-                  aria-hidden="true"
-                  src="/src/assets/images/common/car.gif"
-                  height="100"
-                  width="147"
-                />
-              </a>
-            </div>
-            <img class="h-divider" />
-            <div class="sidebar-list-item">
-              <a href="/favourite-places" class="flex items-center">
+                <span>Collages</span>
+              </div>
+            </a>
+          </div>
+          <!-- <img class="h-divider" /> -->
+          <div class="sidebar-list-item">
+            <a href="/coding-resources" class="flex flex-col items-center">
+              <img
+                aria-hidden="true"
+                width="100"
+                height="75"
+                src="/src/assets/images/common/gears.gif"
+              />
+              <div class="flex items-center">
                 <img class="status-ball" />
-                <div class="flex flex-col">
-                  <span>My Favourite</span>
-                  <span>Places</span>
-                </div>
-                <img
-                  aria-hidden="true"
-                  src="/src/assets/images/common/plane.gif"
-                  height="100"
-                  width="125"
-                />
-              </a>
-            </div>
-            <img class="h-divider" />
-            <div class="sidebar-list-item">
-              <a href="/mr-robot" class="flex items-center">
-                <img class="status-ball" />
-                <div class="flex flex-col">
-                  <span>An Essay on</span>
-                  <span>Mr Robot</span>
-                </div>
-                <img
-                  aria-hidden="true"
-                  width="75"
-                  height="101"
-                  src="/src/assets/images/common/webcam.gif"
-                />
-              </a>
-            </div>
-          </section>
-          <img class="h-divider" />
-          <section class="w-full" aria-labelledby="cool-stuff" role="group">
-            <h2 class="star-heading gap-0 flex flex-col" id="cool-stuff">
-              &#9733; Cool Stuff &#9733;
-            </h2>
-            <img class="h-divider" />
-            <div class="sidebar-list-item">
-              <a href="/minecraft-builds" class="flex flex-col items-center">
-                <img
-                  aria-hidden="true"
-                  width="75"
-                  height="75"
-                  src="/src/assets/images/common/house.gif"
-                />
-                <div class="flex items-center">
-                  <img class="status-ball" />
-                  <span>Minecraft Builds</span>
-                </div>
-              </a>
-            </div>
-            <img class="h-divider" />
-            <div class="sidebar-list-item">
-              <a href="/collages">
-                <img
-                  aria-hidden="true"
-                  src="/src/assets/images/common/photo-album.gif"
-                />
-                <div class="flex items-center">
-                  <img class="status-ball" data-variant="new" />
-                  <img class="status-ball" />
-                  <span>Collages</span>
-                </div>
-              </a>
-            </div>
-            <img class="h-divider" />
-            <div class="sidebar-list-item">
-              <a href="/coding-resources" class="flex flex-col items-center">
-                <img
-                  aria-hidden="true"
-                  width="100"
-                  height="75"
-                  src="/src/assets/images/common/gears.gif"
-                />
-                <div class="flex items-center">
-                  <img class="status-ball" />
-                  <span>Coding Resources</span>
-                </div>
-              </a>
-            </div>
-          </section>
+                <span>Coding Resources</span>
+              </div>
+            </a>
+          </div>
         </nav>
         <img
-          class="lg:hidden"
+          class="xl:hidden"
           aria-hidden="true"
           width="275"
           height="358"
@@ -235,27 +229,32 @@
       </div>
       <div class="row-span-12 col-span-8 font-times flex flex-col">
         <nav
-          class="bg-marble window row-start-1 row-end-2 col-start-3 col-end-11 flex items-center justify-center font-times text-lg font-extrabold gap-1 text-blue-900 mb-8 px-8 flex-wrap max-h-fit"
+          class="bg-marble window-alt flex items-center justify-center font-times text-lg font-extrabold gap-1 text-blue-900 mb-8 flex-wrap max-h-fit"
           aria-label="Page"
         >
-          <a href="#welcome">Welcome</a>| <a href="#music">music</a>|
-          <a href="#interests">Interests</a>|
-          <a href="#fish" class="h-7" aria-label="Fish">
+          <div
+            class="flex gap-1 m-[2px] border-gray-700 border w-full px-8 items-center justify-center flex-wrap"
+          >
+            <a href="#welcome">Welcome</a>| <a href="#music">music</a>|
+            <a href="#interests">Interests</a>|
+            <a href="#fish" class="h-7" aria-label="Fish">
+              <img
+                aria-hidden="true"
+                class="min-w-[110px] min-h-[28px]"
+                width="110"
+                height="28"
+                src="/src/assets/images/common/fish.gif"
+              />
+            </a>
+            |<a href="#buttons">Buttons</a>|
+            <a href="#credits">Credits</a>
             <img
               aria-hidden="true"
-              width="110"
-              height="28"
-              src="/src/assets/images/common/fish.gif"
+              src="/src/assets/images/common/smiley-1.gif"
+              height="32"
+              width="32"
             />
-          </a>
-          |<a href="#buttons">Buttons</a>|
-          <a href="#credits">Credits</a>
-          <img
-            aria-hidden="true"
-            src="/src/assets/images/common/smiley-1.gif"
-            height="32"
-            width="32"
-          />
+          </div>
         </nav>
         <div class="flex gap-8">
           <div class="min-w-fit flex flex-col 3xl:hidden">
@@ -277,19 +276,18 @@
             </div>
           </div>
           <div
-            class="flex flex-col gap-8 text-lg font-bold leading-5 text-white mr-32 3xl:m-0"
+            class="flex flex-col gap-8 text-lg leading-5 text-white mr-32 3xl:m-0"
           >
             <main id="welcome" aria-labelledby="welcome-heading">
-              <h2 id="welcome-heading">Welcome</h2>
-              <hr class="my-2" />
               <div class="flex gap-4 flex-col px-6 xl:px-0">
                 <p>
-                  I am Nicoll, or
-                  <em class="text-2xl text-green-200">Jiggy</em>, as I am often
-                  know as, and I am the proud owner of this very cool and epic
-                  website. This is my little corner of the web that I&apos;ve
-                  carved out for myself where you can find cool stuff about me
-                  as well as cool stuff I&apos;d like to keep somewhere.
+                  Welcome! I am Nicoll, or
+                  <em class="text-2xl font-cursive text-green-200">Jiggy</em>,
+                  as I am often know as, and I am the proud owner of this very
+                  cool and epic website. This is my little corner of the web
+                  that I&apos;ve carved out for myself where you can find cool
+                  stuff about me as well as cool stuff I&apos;d like to keep
+                  somewhere.
                   <img
                     src="/src/assets/images/common/smiley-3.gif"
                     aria-hidden="true"
@@ -319,7 +317,7 @@
                     Otherwise, for now, take a look around and enjoy!
                   </p>
                   <p
-                    class="text-2xl title-bar bg-none justify-start text-green-200"
+                    class="text-2xl flex gap-1 bg-none justify-start text-green-200 flex-wrap"
                   >
                     Network area provided by:
                     <a
@@ -338,13 +336,13 @@
                 </div>
               </div>
             </main>
+            <div class="palm-divider"></div>
             <section id="music" aria-label="Music Player">
-              <div class="palm-divider"></div>
               <div
                 class="px-4 py-8 flex flex-col items-center justify-center gap-4"
               >
                 <marquee
-                  class="w-64 text-xl text-yellow-200 title-bar bg-none font-bold"
+                  class="w-64 text-2xl text-yellow-200 title-bar bg-none font-bold"
                   id="song-marquee"
                 >
                   Select a song!
@@ -581,9 +579,18 @@
                 </div>
               </div>
             </section>
-            <section id="interests" aria-labelledby="interests-heading">
-              <h2 id="interests-heading">Interests</h2>
-              <hr class="my-2" />
+            <div class="my-12 palm-divider"></div>
+            <section
+              id="interests"
+              aria-labelledby="interests-heading"
+              class="border border-blue-400 p-4"
+            >
+              <h2
+                id="interests-heading"
+                class="text-center py-4 font-bold window-alt bg-blue-900"
+              >
+                &#9733; Jiggy&apos;s Interests &#9733;
+              </h2>
               <div class="flex items-start px-6 sm:px-0">
                 <div class="sm:px-2 text-lg leading-5 font-times">
                   <h3 class="interests-subheading">General</h3>
@@ -623,59 +630,6 @@
                 />
               </div>
             </section>
-            <section id="fish" aria-label="Fish">
-              <hr />
-              <div
-                class="flex flex-col gap-2 mx-auto justify-center items-center my-8"
-              >
-                <img
-                  alt="Goldfish Bowl"
-                  height="80"
-                  src="/src/assets/images/common/shelf.gif"
-                />
-                <div class="flex items-end gap-2">
-                  <img
-                    src="/src/assets/images/common/cd-left.gif"
-                    aria-hidden="true"
-                    class="2xl:hidden"
-                  />
-                  <img
-                    alt="Fish tank"
-                    class="h-[200px] sm:w-[300px]"
-                    src="/src/assets/images/common/fish-tank.gif"
-                  />
-                  <img
-                    aria-hidden="true"
-                    src="/src/assets/images/common/cd-right.gif"
-                    class="2xl:hidden"
-                  />
-                </div>
-              </div>
-            </section>
-            <section id="buttons" aria-labelledby="buttons-heading">
-              <hr class="my-8 xl:mt-0" />
-              <div class="px-8">
-                <h2
-                  class="title-bar bg-none inline text-2xl"
-                  id="buttons-heading"
-                >
-                  Buttons I have collected from throughout the net
-                  <img
-                    height="50"
-                    width="62"
-                    src="/src/assets/images/common/smiley-2.gif"
-                    aria-hidden="true"
-                    class="inline"
-                  />
-                </h2>
-                <div
-                  class="mt-4 flex flex-wrap justify-center items-center"
-                  role="group"
-                  aria-label="Buttons"
-                  id="buttons-div"
-                ></div>
-              </div>
-            </section>
             <img
               src="/src/assets/images/common/sculpture.webp"
               aria-hidden="true"
@@ -684,17 +638,20 @@
           </div>
         </div>
       </div>
-      <hr class="hidden lg:block" />
+      <hr class="hidden xl:block" />
       <div class="flex flex-col items-center gap-4 sm:flex-wrap">
         <section
-          class="window mt-20 text-base font-bold w-64 xs:w-full lg:mt-0 max-h-[800px] h-[800px]"
+          class="window-alt text-white text-base font-bold w-64 xl:w-96 xs:w-full lg:mt-0 max-h-[800px] h-[800px]"
           aria-labelledby="site-updates"
         >
           <div class="overflow-y-auto max-h-full">
-            <h2 class="star-heading" id="site-updates">
-              &#9733; Site & Life Updates &#9733;
-            </h2>
-            <img class="h-divider" />
+            <div
+              class="flex items-center justify-center m-[2px] border-gray-700 border bg-blue-900"
+            >
+              <h2 class="text-yellow-100 text-xl" id="site-updates">
+                &#9733; Site & Life Updates &#9733;
+              </h2>
+            </div>
             <div class="site-update">
               <p>
                 Made some cool collages cos im bored ¯\_(ツ)_/¯. New page to
@@ -702,7 +659,6 @@
                 07/10/24
               </p>
             </div>
-            <img class="h-divider" />
             <div class="site-update">
               <p>
                 Recently finished a coding project I&apos;ve been working on for
@@ -716,7 +672,6 @@
                 >! - 06/10/24
               </p>
             </div>
-            <img class="h-divider" />
             <div class="site-update">
               <p>
                 First life update! Had some fun with the onglies today. Feels
@@ -726,7 +681,6 @@
                 28/09/24
               </p>
             </div>
-            <img class="h-divider" />
             <div class="site-update">
               <p>
                 Made a page dedicated to Mr Robot, my favourite show :). Check
@@ -737,14 +691,12 @@
                 - 21/09/24
               </p>
             </div>
-            <img class="h-divider" />
             <div class="site-update">
               <p>
                 <a href="/links" class="leading-5"> Very basic links page. </a>
                 - 20/09/24
               </p>
             </div>
-            <img class="h-divider" />
             <div class="site-update">
               <p>
                 Just added a favourite places page, check out some places that I
@@ -755,7 +707,6 @@
                 - 08/09/24
               </p>
             </div>
-            <img class="h-divider" />
             <div class="site-update">
               <p>
                 Just added a cars page. Now you can see come cool cars that I
@@ -763,7 +714,6 @@
                 <a href="/cars" class="leading-5"> c a r s </a> - 06/09/24
               </p>
             </div>
-            <img class="h-divider" />
             <div class="site-update">
               <p>
                 Also added a minecraft builds page to showcase my minecraft
@@ -773,7 +723,6 @@
                 . - 04/09/24
               </p>
             </div>
-            <img class="h-divider" />
             <div class="site-update">
               <p>
                 Added a coding resources page. Just a page for me to aggregate
@@ -783,14 +732,12 @@
                 . - 04/09/24
               </p>
             </div>
-            <img class="h-divider" />
             <div class="site-update">
               <p>
                 Site is live. Just a homepage for now but very proud of it and
                 more pages coming in the near future. - 31/08/24
               </p>
             </div>
-            <img class="h-divider" />
             <div class="site-update">
               <p>
                 First update :). Working on the site as we speak, it&apos;s been
@@ -800,25 +747,25 @@
             </div>
           </div>
         </section>
-        <section
+        <!-- <section
           aria-hidden="true"
           class="max-w-fit flex flex-col window mt-96 lg:mt-0"
           id="blinkies-div"
-        ></section>
+        ></section> -->
         <div
           role="group"
           aria-label="Embed my button"
-          class="flex font-times flex-col gap-5 bg-marble window p-4 text-lg max-w-96 items-start mt-64 lg:mt-0 mb-4"
+          class="flex font-times flex-col gap-5 p-4 text-lg max-w-96 items-center text-center mt-32 lg:mt-0 mb-4"
         >
-          <p class="text-black">
-            Also feel free to embed my 88x31 button into your page if you wish!:
+          <p class="text-white">
+            Feel free to embed my 88x31 button into your page if you wish!:
           </p>
           <div class="web-btn"></div>
           <label for="btn-embed" class="sr-only">Code to embed:</label>
           <textarea
             id="btn-embed"
-            rows="8"
-            class="text-black w-full resize-none text-sm font-bold p-1"
+            rows="5"
+            class="text-black w-full text-sm font-bold p-1"
             readonly
           >
 &lt;a href="https://nicoll-douglas.github.io"&gt;&lt;img src="https://raw.githubusercontent.com/nicoll-douglas/nicoll-douglas.github.io/main/src/assets/images/jiggys-webspace-btn.jpg" /&gt;&lt;/a&gt;</textarea
@@ -826,9 +773,83 @@
         </div>
       </div>
     </div>
-    <footer id="credits" class="flex flex-col gap-6 items-center">
-      <div class="palm-divider"></div>
-      <div class="flex md:flex-col items-center justify-center mx-16 lg:mx-0">
+
+    <div class="my-8 palm-divider px-24 lg:px-4"></div>
+    <section id="fish" aria-label="Fish" class="mx-auto">
+      <div class="flex flex-col gap-2 mx-auto justify-center items-center my-8">
+        <img
+          alt="Goldfish Bowl"
+          height="80"
+          src="/src/assets/images/common/shelf.gif"
+        />
+        <div class="flex items-end gap-2">
+          <img
+            src="/src/assets/images/common/cd-left.gif"
+            aria-hidden="true"
+            class="2xl:hidden"
+          />
+          <img
+            alt="Fish tank"
+            class="h-[200px] sm:w-[300px]"
+            src="/src/assets/images/common/fish-tank.gif"
+          />
+          <img
+            aria-hidden="true"
+            src="/src/assets/images/common/cd-right.gif"
+            class="2xl:hidden"
+          />
+        </div>
+      </div>
+    </section>
+    <div class="palm-divider px-24 mt-6 mb-16 lg:px-4">
+      <!-- <hr /> -->
+    </div>
+    <section
+      id="buttons"
+      aria-labelledby="buttons-heading"
+      style="max-width: 1280px"
+      class="mx-auto"
+    >
+      <div class="px-8">
+        <h2 class="text-3xl font-bold mx-auto max-w-fit" id="buttons-heading">
+          Buttons I have collected from throughout the net
+          <img
+            height="50"
+            width="62"
+            src="/src/assets/images/common/smiley-2.gif"
+            aria-hidden="true"
+            class="inline"
+          />
+        </h2>
+        <div class="flex items-center justify-center flex-wrap mt-4">
+          <img src="/src/assets/images/buttons-2/btn-1.jpg" />
+          <img src="/src/assets/images/buttons-2/btn-2.jpg" />
+          <img src="/src/assets/images/buttons-2/btn-3.jpg" />
+          <img src="/src/assets/images/buttons-2/btn-4.gif" />
+          <img src="/src/assets/images/buttons-2/btn-5.gif" />
+          <img src="/src/assets/images/buttons-2/btn-6.gif" />
+          <img src="/src/assets/images/buttons-2/btn-7.gif" />
+        </div>
+        <div
+          id="blinkies-div"
+          class="flex flex-wrap items-center justify-center gap-1 mt-1"
+        ></div>
+        <div
+          class="mt-8 flex flex-wrap justify-center items-center"
+          role="group"
+          aria-label="Buttons"
+          id="buttons-div"
+        ></div>
+      </div>
+    </section>
+    <img class="h-divider mt-32" />
+    <footer
+      id="credits"
+      class="flex flex-col gap-6 items-center bg-clouds pt-20 px-4"
+    >
+      <div
+        class="flex md:flex-col items-center justify-center mx-16 lg:mx-0 lg:px-0"
+      >
         <div
           class="window bg-marble py-8 px-1 flex flex-col items-center justify-center"
         >
@@ -840,7 +861,7 @@
             great friendship &lt;3
           </marquee>
         </div>
-        <div class="flex gap-4 flex-col items-end md:flex-row">
+        <div class="flex gap-4 flex-col items-end md:flex-row md:pt-2">
           <img
             aria-hidden="true"
             height="72"
@@ -860,7 +881,6 @@
           alt="Thanks for visiting"
           height="180"
           width="441"
-          class="lg:h-32 xs:w-72"
           src="/src/assets/images/common/thanks.gif"
         />
         <img
@@ -871,11 +891,16 @@
           src="/src/assets/images/common/have-a-great-day.gif"
         />
       </div>
-      <img
-        aria-hidden="true"
-        class="block mt-12 md:hidden"
-        src="/src/assets/images/common/ad.gif"
-      />
+      <div class="flex items-center justify-center flex-wrap mt-12 md:hidden">
+        <img aria-hidden="true" src="/src/assets/images/common/ad.gif" />
+        <img src="/src/assets/images/common/ad-netflix.gif" />
+        <img src="/src/assets/images/common/ad-aweb.gif" />
+        <img src="/src/assets/images/common/ad-trop.gif" />
+        <img src="/src/assets/images/common/ad-geo.gif" />
+        <img src="/src/assets/images/common/ad-puffle.gif" />
+        <img src="/src/assets/images/common/ad-merlin.gif" />
+        <img src="/src/assets/images/common/ad-sims.gif" />
+      </div>
       <div
         class="hot-links"
         data-prev="/coding-resources"
