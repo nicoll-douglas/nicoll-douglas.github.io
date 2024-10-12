@@ -4,7 +4,7 @@
 
 .resource-list {
   background-image: url("@/assets/images/backgrounds/bg-marble.png") !important;
-  @apply max-w-full text-black border-4 border-blue-400 p-4 w-full;
+  @apply max-w-full text-black  p-4 w-full border-t-neutral-500 border-l-neutral-500 border-r-neutral-800 border-b-neutral-800 border-[3px];
 }
 
 .resource-list hr {
