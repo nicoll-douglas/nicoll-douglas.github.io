@@ -8,11 +8,11 @@ body {
 
 .sidebar-list-item {
   background: url("@/assets/images/backgrounds/bg-marble.png");
-  @apply p-3 flex items-center justify-center border border-gray-700 w-full;
+  @apply p-3 flex items-center justify-center border border-neutral-700 w-full;
 }
 
 .site-update {
-  @apply p-1 m-[2px] border border-gray-700 font-times text-lg leading-5 flex items-center justify-center;
+  @apply p-1 m-[2px] border border-neutral-700 font-times text-lg leading-5 flex items-center justify-center;
 }
 
 .site-update span {
