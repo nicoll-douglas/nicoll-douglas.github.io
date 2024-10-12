@@ -17,11 +17,14 @@
           class="w-[250px] h-[250px] md:hidden lg:h-[160px] lg:w-[160px]"
           aria-hidden="true"
         />
-        <img
-          src="/src/assets/images/common/header.png"
-          height="200"
-          width="500"
-        />
+        <h1>
+          <img
+            src="/src/assets/images/common/header.png"
+            height="200"
+            width="500"
+            aria-label="Jiggy's Webspace"
+          />
+        </h1>
         <img
           src="/src/assets/images/common/planets-right.gif"
           class="w-[250px] h-[250px] md:hidden lg:h-[160px] lg:w-[160px]"
@@ -294,6 +297,7 @@
               class="mt-96"
               height="47"
               width="30"
+              aria-hidden="true"
             />
           </div>
           <div
@@ -601,7 +605,7 @@
               </div>
             </section>
             <div class="my-12 palm-divider"></div>
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap" aria-hidden="true">
               <p>You are visitor number:</p>
               <div class="flex">
                 <img src="/src/assets/images/common/counter.gif" />
@@ -617,7 +621,10 @@
                 Jiggy&apos;s Interests
               </h2>
               <div class="mx-auto max-w-fit bg-white">
-                <img src="/src/assets/images/common/music-bar.gif" />
+                <img
+                  src="/src/assets/images/common/music-bar.gif"
+                  aria-hidden="true"
+                />
               </div>
               <div class="flex items-start px-6 sm:px-0">
                 <div class="sm:px-2 text-lg leading-5 font-times">
@@ -670,27 +677,44 @@
       <div class="flex flex-col items-center gap-4 sm:flex-wrap">
         <section
           class="window-alt w-64 p-[2px] flex flex-col gap-[2px] mb-8 xl:mb-0"
+          aria-labelledby="webrings-heading"
         >
           <div
             class="w-full flex items-center justify-center border border-gray-500 bg-blue-900"
           >
-            <h2 class="text-2xl font-bold max-w-fit">
+            <h2 class="text-2xl font-bold max-w-fit" id="webrings-heading">
               &#9733; Webrings &#9733;
             </h2>
           </div>
-          <div
-            class="flex justify-center items-center border border-gray-500 bg-marble p-1"
-          >
-            <a href="https://webring.dinhe.net/prev/nicoll-douglas.github.io">
-              <img src="/src/assets/images/common/arrow-left.gif" />
-            </a>
-            <h3 class="text-black text-xl text-center">
-              The Retronaut Webring
-            </h3>
-            <a href="https://webring.dinhe.net/next/nicoll-douglas.github.io">
-              <img src="/src/assets/images/common/arrow-right.gif" />
-            </a>
-          </div>
+          <ul>
+            <li>
+              <div
+                class="flex justify-center items-center border border-gray-500 bg-marble p-1"
+              >
+                <a
+                  href="https://webring.dinhe.net/prev/nicoll-douglas.github.io"
+                  aria-label="Previous page"
+                >
+                  <img
+                    src="/src/assets/images/common/arrow-left.gif"
+                    aria-hidden="true"
+                  />
+                </a>
+                <h3 class="text-black text-xl text-center">
+                  The Retronaut Webring
+                </h3>
+                <a
+                  href="https://webring.dinhe.net/next/nicoll-douglas.github.io"
+                  aria-label="Next page"
+                >
+                  <img
+                    src="/src/assets/images/common/arrow-right.gif"
+                    aria-hidden="true"
+                  />
+                </a>
+              </div>
+            </li>
+          </ul>
         </section>
         <section
           class="window-alt text-white text-base font-bold w-64 xl:w-96 xs:w-full lg:mt-0 max-h-[800px] h-[800px]"
@@ -807,8 +831,7 @@
             </div>
           </div>
         </section>
-        <div
-          role="group"
+        <section
           aria-label="Embed my button"
           class="flex font-times flex-col gap-5 p-4 text-lg max-w-96 items-center text-center mt-32 lg:mt-0 mb-4"
         >
@@ -825,7 +848,7 @@
           >
 &lt;a href="https://nicoll-douglas.github.io"&gt;&lt;img src="https://raw.githubusercontent.com/nicoll-douglas/nicoll-douglas.github.io/main/src/assets/images/jiggys-webspace-btn.jpg" /&gt;&lt;/a&gt;</textarea
           >
-        </div>
+        </section>
       </div>
     </div>
     <img class="separator-bar mt-8 mb-4" />
@@ -857,10 +880,15 @@
       <img
         src="/src/assets/images/common/shinchan-2.gif"
         class="ml-auto mr-12"
+        aria-hidden="true"
       />
     </section>
     <img class="separator-bar" />
-    <section class="max-w-fit mx-auto px-4" id="y2k">
+    <section
+      class="max-w-fit mx-auto px-4"
+      id="y2k"
+      aria-label="Time until Y2K!"
+    >
       <img
         src="/src/assets/images/common/y2k-banner.gif"
         class="mx-auto max-w-fit sm:w-[300px]"
@@ -877,6 +905,7 @@
           src="/src/assets/images/common/clock.webp"
           class="md:hidden"
           width="100"
+          aria-hidden="true"
         />
       </div>
     </section>
@@ -898,7 +927,10 @@
             class="inline"
           />
         </h2>
-        <div class="flex items-center justify-center flex-wrap mt-4">
+        <div
+          class="flex items-center justify-center flex-wrap mt-4"
+          aria-hidden="true"
+        >
           <img src="/src/assets/images/buttons-2/btn-1.jpg" />
           <img src="/src/assets/images/buttons-2/btn-2.jpg" />
           <img src="/src/assets/images/buttons-2/btn-3.jpg" />
@@ -907,7 +939,7 @@
           <img src="/src/assets/images/buttons-2/btn-6.gif" />
           <img src="/src/assets/images/buttons-2/btn-7.gif" />
         </div>
-        <marquee scrollamount="10">
+        <marquee scrollamount="10" aria-hidden="true">
           <div
             id="blinkies-div"
             class="flex flex-wrap items-center justify-center gap-1 mt-1"
@@ -930,7 +962,7 @@
       >
         <div class="px-1 flex flex-col items-center justify-center">
           <marquee
-            class="text-2xl text-black py-8 font-bold font-cursive max-w-[600px] border-blue-400 border"
+            class="text-2xl text-black py-8 font-bold font-cursive max-w-[600px]"
             scrollamount="5"
             direction="up"
           >
@@ -967,7 +999,10 @@
           src="/src/assets/images/common/have-a-great-day.gif"
         />
       </div>
-      <div class="flex items-center justify-center flex-wrap mt-12 md:hidden">
+      <div
+        class="flex items-center justify-center flex-wrap mt-12 md:hidden"
+        aria-hidden="true"
+      >
         <img aria-hidden="true" src="/src/assets/images/common/ad.gif" />
         <img src="/src/assets/images/common/ad-netflix.gif" />
         <img src="/src/assets/images/common/ad-aweb.gif" />

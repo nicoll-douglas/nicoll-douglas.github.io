@@ -72,6 +72,8 @@ const printBtns = [...document.querySelectorAll(".print")];
 printBtns.forEach((btn) => {
   const img = document.createElement("img");
   img.src = printImg;
+  img.ariaHidden = true;
   btn.appendChild(img);
+  btn.ariaLabel = "Print page";
   btn.addEventListener("click", () => window.print());
 });
