@@ -30,7 +30,7 @@
       </div>
       <div class="flex flex-col items-center text-center">
         <p class="text-3xl text-blue-100 font-bold">
-          Hello world! Welcome to my webpage!
+          Hello world, Welcome to my webpage!
         </p>
         <div class="flex items-center justify-center">
           <!-- <img
@@ -246,6 +246,16 @@
                 src="/src/assets/images/common/fish.gif"
               />
             </a>
+            |
+            <a href="#y2k" aria-label="Countdown">
+              <img
+                src="/src/assets/images/common/clock-2.webp"
+                class="min-h-[28px]"
+                height="28"
+                width="28"
+                aria-hidden="true"
+              />
+            </a>
             |<a href="#buttons">Buttons</a>|
             <a href="#credits">Credits</a>
             <img
@@ -274,6 +284,12 @@
               </button>
               <p aria-hidden class="text-lg text-white inline">Press me!</p>
             </div>
+            <img
+              src="/src/assets/images/common/shinchan.gif"
+              class="mt-96"
+              height="47"
+              width="30"
+            />
           </div>
           <div
             class="flex flex-col gap-8 text-lg leading-5 text-white mr-32 3xl:m-0"
@@ -317,7 +333,7 @@
                     Otherwise, for now, take a look around and enjoy!
                   </p>
                   <p
-                    class="text-2xl flex gap-1 bg-none justify-start text-green-200 flex-wrap"
+                    class="text-2xl font-mono flex gap-1 bg-none justify-start text-green-200 flex-wrap"
                   >
                     Network area provided by:
                     <a
@@ -580,17 +596,24 @@
               </div>
             </section>
             <div class="my-12 palm-divider"></div>
+            <div class="flex flex-wrap">
+              <p>You are visitor number:</p>
+              <div class="flex">
+                <img src="/src/assets/images/common/counter.gif" />
+                <img src="/src/assets/images/common/counter-2.gif" />!
+              </div>
+            </div>
             <section
               id="interests"
               aria-labelledby="interests-heading"
               class="border border-blue-400 p-4"
             >
-              <h2
-                id="interests-heading"
-                class="text-center py-4 font-bold window-alt bg-blue-900"
-              >
-                &#9733; Jiggy&apos;s Interests &#9733;
+              <h2 id="interests-heading" class="text-center py-4 font-bold">
+                Jiggy&apos;s Interests
               </h2>
+              <div class="mx-auto max-w-fit bg-white">
+                <img src="/src/assets/images/common/music-bar.gif" />
+              </div>
               <div class="flex items-start px-6 sm:px-0">
                 <div class="sm:px-2 text-lg leading-5 font-times">
                   <h3 class="interests-subheading">General</h3>
@@ -765,7 +788,7 @@
           <textarea
             id="btn-embed"
             rows="5"
-            class="text-black w-full text-sm font-bold p-1"
+            class="text-black w-full text-sm p-1"
             readonly
           >
 &lt;a href="https://nicoll-douglas.github.io"&gt;&lt;img src="https://raw.githubusercontent.com/nicoll-douglas/nicoll-douglas.github.io/main/src/assets/images/jiggys-webspace-btn.jpg" /&gt;&lt;/a&gt;</textarea
@@ -773,10 +796,9 @@
         </div>
       </div>
     </div>
-
-    <div class="my-8 palm-divider px-24 lg:px-4"></div>
+    <img class="separator-bar mt-8 mb-4" />
     <section id="fish" aria-label="Fish" class="mx-auto">
-      <div class="flex flex-col gap-2 mx-auto justify-center items-center my-8">
+      <div class="flex flex-col gap-2 mx-auto justify-center items-center">
         <img
           alt="Goldfish Bowl"
           height="80"
@@ -800,10 +822,33 @@
           />
         </div>
       </div>
+      <img
+        src="/src/assets/images/common/shinchan-2.gif"
+        class="ml-auto mr-12"
+      />
     </section>
-    <div class="palm-divider px-24 mt-6 mb-16 lg:px-4">
-      <!-- <hr /> -->
-    </div>
+    <img class="separator-bar" />
+    <section class="max-w-fit mx-auto px-4" id="y2k">
+      <img
+        src="/src/assets/images/common/y2k-banner.gif"
+        class="mx-auto max-w-fit sm:w-[300px]"
+        aria-label="Time until Y2K:"
+        height="50"
+        width="400"
+      />
+      <div class="flex mx-auto max-w-fit items-start">
+        <div
+          class="window text-red-500 text-lg font-bold p-4 text-center"
+          id="y2k-time"
+        ></div>
+        <img
+          src="/src/assets/images/common/clock.webp"
+          class="md:hidden"
+          width="100"
+        />
+      </div>
+    </section>
+    <img class="separator-bar mb-16 mt-8" aria-hidden="true" />
     <section
       id="buttons"
       aria-labelledby="buttons-heading"
@@ -812,7 +857,7 @@
     >
       <div class="px-8">
         <h2 class="text-3xl font-bold mx-auto max-w-fit" id="buttons-heading">
-          Buttons I have collected from throughout the net
+          Buttons and blinkers I have collected from throughout the net
           <img
             height="50"
             width="62"
@@ -830,10 +875,12 @@
           <img src="/src/assets/images/buttons-2/btn-6.gif" />
           <img src="/src/assets/images/buttons-2/btn-7.gif" />
         </div>
-        <div
-          id="blinkies-div"
-          class="flex flex-wrap items-center justify-center gap-1 mt-1"
-        ></div>
+        <marquee scrollamount="10">
+          <div
+            id="blinkies-div"
+            class="flex flex-wrap items-center justify-center gap-1 mt-1"
+          ></div>
+        </marquee>
         <div
           class="mt-8 flex flex-wrap justify-center items-center"
           role="group"
@@ -842,39 +889,36 @@
         ></div>
       </div>
     </section>
-    <img class="h-divider mt-32" />
     <footer
       id="credits"
-      class="flex flex-col gap-6 items-center bg-clouds pt-20 px-4"
+      class="flex flex-col gap-6 items-center pt-8 px-4 bg-clouds mt-40 mb-8"
     >
       <div
         class="flex md:flex-col items-center justify-center mx-16 lg:mx-0 lg:px-0"
       >
-        <div
-          class="window bg-marble py-8 px-1 flex flex-col items-center justify-center"
-        >
+        <div class="px-1 flex flex-col items-center justify-center">
           <marquee
-            class="text-2xl text-black font-bold font-cursive max-w-[600px]"
-            scrollamount="9"
+            class="text-2xl text-black py-8 font-bold font-cursive max-w-[600px] border-blue-400 border"
+            scrollamount="5"
+            direction="up"
           >
+            <img
+              aria-hidden="true"
+              height="72"
+              width="216"
+              src="/src/assets/images/common/friends.gif"
+            />
             Special thanks to Batul, Adrian and the onglydooples for support and
             great friendship &lt;3
+            <img
+              aria-hidden="true"
+              height="72"
+              width="72"
+              src="/src/assets/images/common/heart.gif"
+            />
           </marquee>
         </div>
-        <div class="flex gap-4 flex-col items-end md:flex-row md:pt-2">
-          <img
-            aria-hidden="true"
-            height="72"
-            width="216"
-            src="/src/assets/images/common/friends.gif"
-          />
-          <img
-            aria-hidden="true"
-            height="72"
-            width="72"
-            src="/src/assets/images/common/heart.gif"
-          />
-        </div>
+        <div class="flex gap-4 flex-col items-end md:flex-row md:pt-2"></div>
       </div>
       <div class="flex items-center">
         <img
@@ -900,7 +944,9 @@
         <img src="/src/assets/images/common/ad-puffle.gif" />
         <img src="/src/assets/images/common/ad-merlin.gif" />
         <img src="/src/assets/images/common/ad-sims.gif" />
+        <img src="/src/assets/images/common/ad-cola.jpg" />
       </div>
+      <button class="print"></button>
       <div
         class="hot-links"
         data-prev="/coding-resources"

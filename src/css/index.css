@@ -32,11 +32,11 @@ hr {
 }
 
 h2 {
-  @apply leading-9 text-yellow-200 font-times text-5xl;
+  @apply leading-9 text-yellow-200 font-times text-4xl;
 }
 
-::selection {
-  @apply bg-pink-500;
+textarea {
+  @apply font-mono;
 }
 
 .h-divider {
@@ -110,4 +110,12 @@ h2 {
 
 .window-alt {
   @apply border-t-neutral-500 border-l-neutral-500 border-r-neutral-800 border-b-neutral-800 border-[3px];
+}
+
+.print {
+  @apply border-t-neutral-500 border-l-neutral-500 border-r-neutral-800 border-b-neutral-800 border-[3px] bg-gray-300 min-w-fit min-h-fit p-2 w-[55px] flex items-center justify-center;
+}
+
+.separator-bar {
+  @apply md:px-4 px-24;
 }

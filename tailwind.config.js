@@ -18,6 +18,7 @@ export default {
       fontFamily: {
         times: ['"Times New Roman"', "serif"],
         cursive: ["cursive", "serif"],
+        mono: ["monospace", "serif"],
       },
       screens: {
         xs: { max: "425px" },

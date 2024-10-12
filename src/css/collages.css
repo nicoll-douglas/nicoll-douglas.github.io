@@ -1,3 +1,4 @@
-.collage-image {
+#blue-collage img,
+#orange-collage img {
   @apply max-h-48;
 }

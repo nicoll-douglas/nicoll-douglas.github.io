@@ -7,7 +7,7 @@
     <title>Cool cars</title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   </head>
-  <body>
+  <body class="flex flex-col items-center text-white">
     <header class="flex xs:gap-0 gap-4 items-center justify-center max-w-fit">
       <img
         src="/src/assets/images/common/car-globe.gif"
@@ -55,20 +55,20 @@
       <p style="max-width: 600px">
         Welcome to the cars page! This is a page where I showcase some cars the
         I think are pretty cool. Classic cars from brands like Chevrolet,
-        Cadillac, Oldsmobile, Pontiac to be precise. They are some of the
-        classiest cars ever made so check out some of my favourites below!
+        Cadillac and Pontiac to be precise. I think those old American brands
+        are really cool! Check out some of my favourites below!
       </p>
     </section>
-    <section aria-label="Gallery">
+    <section aria-label="Gallery" class="flex flex-col items-center">
       <figure
-        class="window text-xl font-times font-bold"
+        class="text-xl font-times font-bold flex flex-col"
         style="max-width: 500px"
       >
         <img
           src="/src/assets/images/cars/75-deville.jpg"
           alt="Cadillac DeVille - 1975"
         />
-        <figcaption>1975 Cadillac DeVille</figcaption>
+        <figcaption class="text-white">1975 Cadillac DeVille</figcaption>
       </figure>
       <img
         src="/src/assets/images/common/car-spin.gif"
@@ -77,7 +77,7 @@
         aria-hidden="true"
       />
       <figure
-        class="window text-xl font-times font-bold mt-4"
+        class="text-xl font-times font-bold mt-4"
         style="max-width: 700px"
       >
         <img
@@ -87,22 +87,21 @@
         />
         <figcaption>1966 Pontiac 2+2</figcaption>
       </figure>
-      <img
-        src="/src/assets/images/common/car-mobster.gif"
-        height="120"
-        aria-hidden="true"
-        class="inline"
-      />
-      <img
-        src="/src/assets/images/common/car-mobster.gif"
-        height="120"
-        aria-hidden="true"
-        class="xs:hidden inline"
-      />
-      <figure
-        class="window text-xl font-times font-bold"
-        style="max-width: 650px"
-      >
+      <div class="flex">
+        <img
+          src="/src/assets/images/common/car-mobster.gif"
+          height="120"
+          aria-hidden="true"
+          class="inline"
+        />
+        <img
+          src="/src/assets/images/common/car-mobster.gif"
+          height="120"
+          aria-hidden="true"
+          class="xs:hidden inline"
+        />
+      </div>
+      <figure class="text-xl font-times font-bold" style="max-width: 650px">
         <img
           src="/src/assets/images/cars/72-eldorado.jpg"
           alt="Cadillac El Dorado - 1972"
@@ -116,7 +115,7 @@
         class="sm:hidden"
       />
       <figure
-        class="window text-xl font-times font-bold sm:mt-8"
+        class="text-xl font-times font-bold sm:mt-8"
         style="max-width: 630px"
       >
         <img
@@ -131,11 +130,11 @@
       <h2 id="bonus">BONUS!!!</h2>
       <figure>
         <figcaption class="text-xl text-white" style="max-width: 600px">
-          The gold-plated, pimped out, &apos;72 El Dorado which belonged to one
-          of my favourite singers, Isaac Hayes. Majestic!
+          The gold-plated &apos;72 El Dorado which belonged to one of my
+          favourite singers, Isaac Hayes. Majestic!
         </figcaption>
         <div class="flex items-end">
-          <figure class="window mt-4" style="max-width: 650px">
+          <figure class="mt-4" style="max-width: 650px">
             <img
               class="w-full"
               alt="Isaac Hayes' 1972 Cadillac El Dorado"

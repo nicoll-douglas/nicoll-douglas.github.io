@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <div>
+    <div class="flex flex-col items-center">
       <header class="flex gap-4 items-center justify-center max-w-fit">
         <img
           src="/src/assets/images/common/house-2.gif"
@@ -31,7 +31,7 @@
       </header>
       <section
         aria-label="About"
-        class="window p-4 bg-pink-300 max-w-fit my-8 font-times text-xl flex items-start"
+        class="p-4 text-white max-w-fit my-8 font-times text-xl flex items-start"
       >
         <div class="flex flex-col gap-2">
           <p>
@@ -41,7 +41,8 @@
             Some might include items and blocks from a modpack I play on called
             &quot;<a href="https://youtu.be/kask8Zing5c?si=3NfjdwjZ6VLYTUH7"
               >The Pond</a
-            >&quot; if you were wondering.
+            >&quot; if you were wondering (specifically the
+            &quot;Cluttered&quot; mod).
           </p>
         </div>
         <img
@@ -50,49 +51,54 @@
           height="100"
         />
       </section>
-      <main aria-label="Builds">
+      <button class="print mb-4"></button>
+      <main aria-label="Builds" class="flex flex-col items-center">
         <div class="max-w-fit flex items-end">
-          <figure class="window max-w-[800px] flex flex-col">
+          <figure class="max-w-[800px] flex flex-col">
             <img
               src="/src/assets/images/minecraft/bakery.png"
               alt="Bakery build"
               class="w-full"
             />
-            <figcaption class="text-xl">Bakery</figcaption>
+            <figcaption class="text-2xl text-white">
+              1. Bakery (Untitled)
+            </figcaption>
           </figure>
-          <img
+          <!-- <img
             src="/src/assets/images/common/dump-truck.gif"
             aria-hidden
             class="my-auto lg:hidden"
             height="200"
             width="300"
+          /> -->
+        </div>
+        <div class="flex">
+          <img
+            src="/src/assets/images/common/build.gif"
+            width="100"
+            height="100"
+            aria-hidden
+          />
+          <img
+            src="/src/assets/images/common/builder.gif"
+            height="75"
+            width="213"
+            aria-hidden
           />
         </div>
-        <img
-          src="/src/assets/images/common/build.gif"
-          width="100"
-          height="100"
-          aria-hidden
-        />
-        <img
-          src="/src/assets/images/common/builder.gif"
-          height="75"
-          width="213"
-          aria-hidden
-        />
-        <figure class="window max-w-[1000px] flex flex-col">
+        <figure class="max-w-[1000px] flex flex-col">
           <img
             src="/src/assets/images/minecraft/palace.png"
             alt="Palace build"
             class="w-full"
           />
-          <figcaption class="text-xl">Palace</figcaption>
+          <figcaption class="text-2xl text-white">
+            2. Palace (Untitled)
+          </figcaption>
         </figure>
       </main>
       <footer class="max-w-fit">
-        <p
-          class="my-6 text-3xl font-times font-bold text-pink-700 bg-white max-w-fit"
-        >
+        <p class="my-6 text-3xl font-times font-bold text-blue-200 max-w-fit">
           Planning to add more as I do want to build more often.
         </p>
         <div class="flex flex-wrap mb-16 items-end">
@@ -107,10 +113,6 @@
           data-top="true"
         ></div>
         <div class="fixed left-0 bottom-0 w-dvw h-16 bg-grass"></div>
-        <img
-          src="/src/assets/images/common/lego.gif"
-          class="fixed bottom-0 right-0 md:hidden"
-        />
       </footer>
     </div>
     <script src="/src/main.js" type="module"></script>

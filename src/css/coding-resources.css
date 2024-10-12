@@ -3,29 +3,26 @@
 }
 
 .resource-list {
-  @apply mb-8 max-w-full text-white font-bold;
+  background-image: url("@/assets/images/backgrounds/bg-marble.png") !important;
+  @apply max-w-full text-black border-4 border-blue-400 p-4 w-full;
 }
 
 .resource-list hr {
-  @apply my-2;
+  @apply my-2 hidden;
 }
 
-.resource-list div {
-  @apply px-6 md:px-0;
+.resource-list h2 {
+  @apply my-6 max-w-fit mx-auto text-blue-800 font-bold;
 }
 
 .resource-list p {
-  @apply text-lg text-white font-times font-bold leading-6;
+  @apply text-lg text-black font-times font-bold leading-6;
 }
 
 .resource-list ul {
-  @apply text-lg font-times mt-4 px-12 md:px-6 list-disc;
+  @apply text-lg font-times mt-4 px-6 list-disc;
 }
 
 .resource-list a {
-  @apply text-xl md:text-lg text-pink-200;
-}
-
-.resource-list a:hover {
-  @apply text-pink-400;
+  @apply text-xl md:text-lg;
 }

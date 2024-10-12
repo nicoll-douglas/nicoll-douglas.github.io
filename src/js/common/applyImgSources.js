@@ -5,6 +5,7 @@ import hDividerUrl from "@/assets/images/common/h-divider.gif";
 import palmTree2 from "@/assets/images/common/palm-tree-2.gif";
 import webBtnUrl from "@/assets/images/jiggys-webspace-btn.jpg";
 import separator from "@/assets/images/common/separator-4.gif";
+import printImg from "@/assets/images/common/print.gif";
 import setSize from "./setSize";
 
 const hDividers = [...document.querySelectorAll(".h-divider")];
@@ -65,4 +66,12 @@ separators.forEach((img) => {
   img.ariaHidden = true;
   img.classList.add("w-full");
   img.style.height = "10px";
+});
+
+const printBtns = [...document.querySelectorAll(".print")];
+printBtns.forEach((btn) => {
+  const img = document.createElement("img");
+  img.src = printImg;
+  btn.appendChild(img);
+  btn.addEventListener("click", () => window.print());
 });
