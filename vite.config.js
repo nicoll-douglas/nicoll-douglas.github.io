@@ -17,6 +17,7 @@ export default defineConfig({
         "mr-robot": "./mr-robot.html",
         "minecraft-builds": "./minecraft-builds.html",
         "coding-resources": "./coding-resources.html",
+        projects: "./projects.html",
       },
     },
   },

@@ -11,6 +11,7 @@ export default {
     "./minecraft-builds.html",
     "./coding-resources.html",
     "./collages.html",
+    "./projects.html",
     "./src/**/*.js",
   ],
   theme: {
