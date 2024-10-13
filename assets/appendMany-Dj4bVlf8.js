@@ -1,1 +1,0 @@
-import{g as r}from"./getUrls-7PKzLQkq.js";async function m(i,o,n){const a=await r(o);for(let t=0;t<a.length;t++){const e=document.createElement("img");n&&n(e),e.src=a[t],e.alt=`Image ${t}`,i.appendChild(e)}}export{m as a};
