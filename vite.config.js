@@ -18,6 +18,7 @@ export default defineConfig({
         // "minecraft-builds": "./minecraft-builds.html",
         "coding-resources": "./coding-resources.html",
         projects: "./projects.html",
+        music: "./music.html",
       },
     },
   },

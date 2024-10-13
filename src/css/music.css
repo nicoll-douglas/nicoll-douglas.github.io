@@ -1,0 +1,24 @@
+.song-list {
+  @apply list-none flex flex-col gap-20;
+}
+
+.song-list li {
+  @apply gap-4 flex-col flex relative pl-16;
+}
+
+.song-list li::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url("/src/assets/images/common/note.gif");
+  background-size: cover;
+  @apply left-0 top-0 absolute;
+}
+
+.song-list li span {
+  @apply font-bold text-purple-400 text-3xl md:text-2xl;
+}
+
+iframe {
+  @apply md:w-72;
+}
